@@ -1,0 +1,16 @@
+#titulo, .texto {
+    color: blue;
+    font-size: 25px;
+}
+
+p, li {
+    font-size: large;
+}
+
+ol li {
+    color: pink;
+}
+
+ul li {
+    color: green;
+}

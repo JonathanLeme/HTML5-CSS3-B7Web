@@ -1,0 +1,64 @@
+.red {
+    background-color: rgb(255, 0, 0);
+}
+
+.green {
+    background-color:rgb(0, 255, 0);
+}
+
+.blue {
+    background-color:#0000ff;
+}
+
+.borda01 {
+    border: 5px solid #FF0000;
+}
+
+.borda02 {
+    border: 5px dotted #00FF00;
+}
+
+.borda03 {
+    border: 5px dashed #0000FF;
+}
+
+.borda04 {
+    border: 5px double #FF0000;
+}
+
+.borda05 {
+    border-top: 5px solid #00FF00;
+}
+
+.borda06 {
+    border-bottom: 5px solid #00FF00;
+}
+
+.borda07 {
+    border-left: 5px solid #00FF00;
+}
+
+.borda08 {
+    border-right: 5px solid #00FF00;
+}
+
+.borda09 {
+    color: #FFFFFF;
+    background-color: #0000FF;
+    border-radius: 5px;  
+}
+
+div {
+    background-color: #00FF00;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+}
+
+img {
+    border: 5px solid #FF0000;
+    border-radius: 30px;
+    overflow: hidden;
+}
+

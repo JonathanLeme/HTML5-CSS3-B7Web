@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.link {
+    color: #0000FF;
+    font-size: 20px;
+}
+
+.link:hover {
+    color: #00FF00;
+} /* link:hover - quando passa o mouse por cima mudas para a cor determinada */
+
+.link:visited {
+    color: #FF0000;
+} /* link:visited - marca a cor determinada quando você já acessou o link. */
