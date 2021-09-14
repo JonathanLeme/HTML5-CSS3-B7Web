@@ -3,7 +3,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <title>Fieldset & Legend</title>
+    <title>Validações Nativas</title>
     <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="16-html-validacoes-nativas.css">
 
@@ -11,19 +11,41 @@
 
 <body>
 
-    <h1>Fildset & Legend</h1>
+    <h1>Validações Nativas</h1>
 
-    <form method="POST">
+    <form action="paginas/07-html-login.html" method="POST" enctype="multipart/form-data">
+
+        <input type="hidden" name="country" value="BR">
+        
         <fieldset>
+
             <legend>Dados Pessoais</legend>
+
             <label>
-                Primero Nome: <br>
-                <input type="text" name="name">
+                Primero Nome <br>
+                <input type="text" name="name" minlength="2" maxlength="20" required>
             </label> <br>
             <label>
-                Sobrenome: <br>
-                <input type="text" name="lastname">
+                Sobrenome <br>
+                <input type="text" name="lastname" required>
             </label> <br>
+            <label>
+                Idade <br>
+                <input type="number" name="age" min="18" max="120" required>
+            </label> <br>
+            <label>
+                Data de Nasciment: <br>
+                <input type="date" name="birthdate" min="2021-09-14" required>
+            </label> <br>
+            <label>
+                E-mail <br>
+                <input type="text" name="email" pattern="(^[A-zA-Z0-9_.+-]+@[A-zA-Z0-9_.+-]+\.[A-zA-Z0-9_.+-]+$)" title="Ensira um E-mail Válido" required>
+            </label> <br>
+            <label>
+                Foto <br>
+                <input type="file" name="photo" accept="image/*" required>
+            </label> <br>
+
         </fieldset> 
 
         <fieldset>
