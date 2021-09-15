@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+}
+
+h1, p {
+    font-size: 30px;
+}
+
+table, td {
+    border: 2px solid #000;
+}
+
+@media only print {
+
+    h1 {
+        color: #FF0000;
+        font-size: 40px;
+        font-weight: normal;
+    }
+
+    p {
+        color: #0000FF;
+    }
+
+    table, td {
+        border: 0;
+    }
+
+}
+
+/* 
+
+@media only print - 
+@media only screen -
+@media all - 
+
+*/
