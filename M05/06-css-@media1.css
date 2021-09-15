@@ -10,7 +10,7 @@ h1, p {
 body {
     margin: 30px;
     font-size: 60px;
-    background-color: #00FF00;
+    background-color: #000;
 }
 
 @media (min-width: 1000px) and (max-width: 1300px) {
