@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1, p {
+    font-family: 'Chilanka';
+}
+
+nav {
+    height: 100px;
+    background-color: #999;
+}
+
+footer {
+    height: 100px;
+    background-color: #CCC;
+}
+
