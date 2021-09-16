@@ -1,0 +1,32 @@
+:root {
+    --bg-color: #000;
+    --bg-second: #CCC;
+    --font-family: 'Chilanka';
+    --font-color: #FFF;
+    --font-size: 25px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+
+h1, div {
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+.container {
+    background-color: var(--bg-second);
+}
+
+@media (max-width: 450px) {
+    :root {
+        --font-size: 15px;
+    }
+}
