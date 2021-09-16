@@ -1,0 +1,31 @@
+:root {
+    --bg-color: #000;
+    --bg-second: #CCC;
+    --font-family: 'Chilanka';
+    --font-color: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    background-color: var(--bg-color);
+}
+
+h1, div {
+    font-family: var(--font-family);
+    color: var(--font-color);
+}
+
+.container {
+    background-color: var(--bg-second);
+}
+
+/* 
+
+:root - 
+var() - 
+
+*/
