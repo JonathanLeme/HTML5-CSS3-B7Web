@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1, p {
+    font-family: 'Chilanka';
+}
+
+form {
+    width: 230px;
+    height: 150px;
+    background-color: #DDD;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    font-size: 13px;
+}
