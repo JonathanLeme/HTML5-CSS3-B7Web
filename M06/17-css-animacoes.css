@@ -15,8 +15,9 @@ h1, p {
     width: 150px;
     height: 150px;
     background-color: red;
-    position: absolute;
-    animation: animacoes 5s;
+    position: relative;
+    animation: animacoes 5s infinite;
+    animation-direction: alternate;
 }
 
 @keyframes animacoes {
@@ -31,6 +32,6 @@ h1, p {
 
 * Caso eu queira que à a nimação continue, eu preciso colocar "infinite" após os segundos: [animation: animacoes 5s; infinite]
 
-* Preciso descobrir como acha o px de onde meu quadrado está parado para tenaar iniciá-lo do mesmo local.
+* Preciso descobrir como acha o pixel de onde meu quadrado está parado para tenaar iniciá-lo do mesmo local.
 
 */
