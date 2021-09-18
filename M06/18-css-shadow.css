@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1, p {
+    font-family: 'Chilanka';
+}
+
+#example1 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    padding: 5px;
+    box-shadow: 5px 10px 10px;   
+}
+
+#example2 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;   
+}
+
+#example3 {
+    width: 100%;
+    height: 100px;
+    border: 1px solid ;
+    padding: 10px;
+    text-shadow: 2px 2px #ccc; 
+    box-shadow: 5px 10px #FF0000;   
+}
+
+/* 
+
+* No example1 perceba que incluir "5px". Isso fará que a sombra ganhe um esfumaçamento.
+
+* No example2 incluir "text-shadow". Perceba que no texto que a sombra se aplica. ;)
+
+*/
