@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1, p {
+    font-family: 'Chilanka';
+}
+
+/* 
+
+* "word-wrap: break-word;" é usado para quebrar a palavra para poder mantê-la, automaticamente,  dentro da caixa-box
+
+*/
