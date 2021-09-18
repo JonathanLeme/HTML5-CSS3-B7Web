@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1, p {
+    font-family: 'Chilanka';
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #00FF00;
+    transition: all 1s linear;
+}
+div:hover {
+    width: 300px;
+    background-color: yellow;
+}
+
+a {
+    color: #000;
+    transition: all 1s linear;
+}
+
+a:hover {
+    color: #FF0000;
+}
+
+/* 
+
+* "transition" pode ser utilizado tanto para caixas-box como para texto. 
+
+*/
