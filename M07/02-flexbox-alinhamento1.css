@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Chilanka';
+}
+
+.container {
+    display: flex;
+    height: 500px;
+    flex-direction: row;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    background-color: #DDDDDD;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* 
+
+* flex-direction: ?;
+ 
+* justify-content: ?; 
+    
+* align-items: ?;
+
+*/
