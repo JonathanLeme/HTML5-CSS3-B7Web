@@ -119,15 +119,6 @@ nav a:hover {
     background-color: #2b4c99;
 }
 
-.banner_title {
-    font-size: 21px;
-}
-.banner_desc {
-    font-size: 14px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
 .banner_options a {
     display: inline-block;
     border: 1px solid #FFF;
@@ -135,6 +126,39 @@ nav a:hover {
     color: #FFF;
     font-size: 18px;
     text-decoration: none;
-
 }
+
+.banner_title {
+    font-size: 21px;
+}
+
+.banner_desc1 {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_desc2 {
+    display: flex;
+    justify-content: column;
+    border-bottom: 1px solid #555;
+}
+
+.banner_desc2 div{
+    flex: 1;
+    font-size: 12px;
+    margin: 8px;
+    padding: 5px;
+    padding-left: 0px;
+            
+}
+
+.hourly {
+    text-align: right;
+}
+
+
+
+
+
 
