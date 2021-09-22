@@ -305,10 +305,12 @@ footer {
     display: flex;
 }
 
-.footer_areitem {
+.footer_areaitem {
     flex: 1;
     color: #FFF;
-    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 0px;
 }
 
 .footer_bar {
@@ -316,6 +318,32 @@ footer {
     height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.footer_desc a {
+    text-decoration: none;
+    color: #4b4b4b;
+    font-size: 14px;
+}
+
+a:hover {
+    color: rgb(182, 182, 182);
+}
+
+.footer_desc .years {
+    color: #36a9e1;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 30px;
+}
+
+.footer_desc .link {
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.footer_desc .link:hover {
+    color: rgba(255, 0, 0, 0.377);
 }
 
 .footer_copy {
