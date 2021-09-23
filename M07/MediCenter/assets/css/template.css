@@ -245,11 +245,43 @@ article .news_title {
 
 article .news_resume {
     color: #5c5c5c;
-    text-align: justify;
     line-height: 20px;
     font-size: 15px;
     margin-bottom: 30px;
 }
+
+/* baneer meio 2 */
+
+
+
+
+
+
+/* banner meio 3 */
+
+.desc_contacts, 
+.query_options {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 15px; 
+    margin-bottom: 40px;
+    
+}
+
+.desc_options {
+    margin: 10px;
+    text-align: unset;
+}
+
+.query_options img {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+
+
+
+
 
 /* *** Próximo Banner [Footer]*** */
 
@@ -321,9 +353,40 @@ footer {
     margin-bottom: 30px;
 }
 
-.footer_desc a {
+.footer_desc {
+    color: #7e7e7e;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.footer_pessoal {
+    display: flex;
+    justify-content: space-between;
+    color: #7e7e7e;
+    font-size: 14px;
+    line-height: 5px;
+    margin-bottom: 30px;
+}
+
+.footer_contacts {
+    align-self: flex-end;
+    margin-right: 15px;
+    text-align: right;
+}
+
+.footer_social {
+    display: flex;
+}
+
+.footer_social img {
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+}
+
+.footer_desc_link a {
     text-decoration: none;
-    color: #4b4b4b;
+    color: #7e7e7e;
     font-size: 14px;
 }
 
@@ -331,18 +394,18 @@ a:hover {
     color: rgb(182, 182, 182);
 }
 
-.footer_desc .years {
+.footer_desc_link .years {
     color: #36a9e1;
     font-size: 14px;
     margin-top: 8px;
     margin-bottom: 30px;
 }
 
-.footer_desc .link {
+.footer_desc_link .link {
     color: rgba(255, 255, 255, 0.664);
 }
 
-.footer_desc .link:hover {
+.footer_desc_link .link:hover {
     color: rgba(255, 0, 0, 0.377);
 }
 
