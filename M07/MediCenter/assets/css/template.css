@@ -265,19 +265,24 @@ article .news_resume {
     line-height: 20px;
     font-size: 15px; 
     margin-bottom: 40px;
-    
 }
 
-.desc_options {
+.desc_options1,
+.desc_options2,
+.desc_options3,
+.desc_options4 {
     margin: 10px;
-    text-align: unset;
+    border-top: 1px solid #999;
 }
 
 .query_options img {
     width: 20px;
     height: 20px;
     margin: 10px;
+    
 }
+
+
 
 
 
