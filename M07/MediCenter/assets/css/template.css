@@ -250,12 +250,41 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
-/* baneer meio 2 */
+/* banner meio 2 */
 
+.widget_body1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
+.block1 {    
+    background-color: #36a9e1;
+    width: 150px;
+    height: 155px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+}
 
+.block2 {    
+    background-color: #36a9e1;
+    width: 150px;
+    height: 155px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+}
 
+.widget_title2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}
 
+.widget_title_text2 {
+    color: #000000;
+    font-size: 21px;
+    font-weight: bold;
+}
 
 /* banner meio 3 */
 
@@ -270,22 +299,22 @@ article .news_resume {
 .desc_options1,
 .desc_options2,
 .desc_options3,
-.desc_options4 {
-    margin: 10px;
-    border-top: 1px solid #999;
+.desc_options4 {  
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #bbb;
+}
+
+.desc_options2 a {
+    color: #5c5c5c;
+    text-decoration: none;
 }
 
 .query_options img {
     width: 20px;
-    height: 20px;
+    height: 18px;
     margin: 10px;
-    
 }
-
-
-
-
-
 
 
 /* *** Próximo Banner [Footer]*** */
@@ -395,7 +424,7 @@ footer {
     font-size: 14px;
 }
 
-a:hover {
+.footer_desc_link a:hover {
     color: rgb(182, 182, 182);
 }
 
