@@ -41,14 +41,14 @@ body {
 .photo_description {
     background-color: #FFF;
     border: 1px solid #FFF;  
-    position: relative;
 }
+
 .photo_description {
     font-style: italic;
     text-align: center;
     margin-bottom: 10px;
     
-}
+    }
 
 img {
     width: 400px;
