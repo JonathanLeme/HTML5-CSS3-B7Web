@@ -8,36 +8,83 @@ body {
     display: flex;   
     justify-content: center;
     flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title,
+.sub_title,
+.photo,
+.descriptions,
+.list,
+.link_wiki {
+    align-self: center;
+}
+
+.title {
+    margin: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.sub_title {
+    margin: 10px;
+    font-size: 30px;
+    font-style: italic;
 }
 
 .bar {
     border-bottom: 2px solid rgba(255, 255, 255, 0.185);
     margin: 20px;
-    
 }
 
-.photo {
+.photo, .link_photo,
+.photo_description {
     background-color: #FFF;
-    border: 1px solid #000;
-       
+    border: 1px solid #FFF;  
+    position: relative;
+}
+.photo_description {
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10px;
+    
 }
 
 img {
+    width: 400px;
+    height: 630px;
     margin-top: 3px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-left: 3px;
     margin-right: 3px;
-    width: 400px;
-    height: 600px;
 }
 
-.description_photo {
-    
-}
-
-.title,
-.photo,
 .descriptions {
-    align-self: center;
+    margin:30px;
+    text-align: center;
+}
+
+.title_list {
+    margin:20px;
+    text-align: center;
+}
+
+.description_list {
+    margin: 20px;
+    line-height: 25px;
     
+}
+
+.link_wiki {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+a {
+    color: #0000FF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
 }
