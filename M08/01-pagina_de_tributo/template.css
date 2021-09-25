@@ -5,9 +5,9 @@
 }
 
 body {
-    flex-direction: column;
+    display: flex;   
     justify-content: center;
-    
+    flex-direction: column;
 }
 
 .bar {
@@ -16,8 +16,28 @@ body {
     
 }
 
+.photo {
+    background-color: #FFF;
+    border: 1px solid #000;
+       
+}
+
 img {
-    
+    margin-top: 3px;
+    margin-bottom: 20px;
+    margin-left: 3px;
+    margin-right: 3px;
     width: 400px;
     height: 600px;
+}
+
+.description_photo {
+    
+}
+
+.title,
+.photo,
+.descriptions {
+    align-self: center;
+    
 }
