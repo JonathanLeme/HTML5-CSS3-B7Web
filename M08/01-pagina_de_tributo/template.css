@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+body {
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.bar {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.185);
+    margin: 20px;
+    
+}
+
+img {
+    
+    width: 400px;
+    height: 600px;
+}
