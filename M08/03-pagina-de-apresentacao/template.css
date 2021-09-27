@@ -1,21 +1,33 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: yellow;
+    background-color: red;
 }
 
-.banner {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(115, 115, 115);
+}
+
+.banner_logo,
+.banner_social {
     display: flex;
     justify-content: center;
     align-items: center;
     
-    background-color: rgb(115, 115, 115);
-    height: 100px;
 }
 
-.logo,
-.social {
-    
+.banner_logo {
+    margin-left: 500px;
+    background-color: green;
+}
+
+.banner_social {
+    margin-right: 500px;
+    background-color: yellow;
 }
 
 .logo {
