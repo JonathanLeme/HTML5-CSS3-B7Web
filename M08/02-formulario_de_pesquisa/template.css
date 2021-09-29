@@ -24,11 +24,6 @@ label {
     margin-bottom: 20px;
 }
 
-label {
-    display: block;
-    margin-bottom: 20px;
-}
-
 input[type="text"],
 input[type="tel"],
 input[type="email"],
