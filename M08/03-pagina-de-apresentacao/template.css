@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Chilanka';
-    background-color: #000;
+    background-color: #FFF;
 }
 
 .container_banner {
@@ -34,13 +34,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFF;
-    margin-top: 30px; 
-    margin-bottom: 20px;
+    color: #000;
+    background-color: darkblue; /* Apagar ou mudar de cor */
 }
 
 .iphone {
-    
     width: 570px;
     height: 390px;
     border: 2px solid rgb(115, 115, 115);
@@ -51,7 +49,6 @@
 .produto_description,
 .buy {
     margin: 25px;
-    
 }
 
 .produto_name {
@@ -69,7 +66,6 @@
 .button {
     display: flex;
     justify-content: center;
-    
 }
 
 .buy {
@@ -83,8 +79,8 @@
 }
 
 .container_footer {
-    color: #FFF;
-    background-color: #FFF;
+    color: #000;
+    background-color: #00FF00;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,30 +89,30 @@
 .title {
     margin: 30px;
     font-size: 40px;
+    font-style: italic;
 }
 
 .sub_title {
     margin: 20px;
     font-size: 18px;
     text-align: center;
-    
 }
 
 .options_row {
     display: flex;
     justify-content: center;
+    background-color: yellow;
 }
 
 .options_column {
     display: flex;
-    
-    flex-direction: column;
 }
 
-
-.icon {
+.icon1,
+.icon2,
+.icon3 {
     margin: 20px;
     width: 20px;
     height: 20px;
-    }
+}
 
