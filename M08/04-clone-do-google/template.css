@@ -44,7 +44,6 @@ a {
 /* Segunda Parte */
 
 .banner_google {
-    height: 700px;
     padding: 1px;
     background-color: #FFF; /* ao finalizar apagar ou colocar cor branca. */
 }
@@ -52,11 +51,7 @@ a {
 .container_google {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 5px;
-    padding: 5px;
-    height: 600px;
     background-color: #FFF; /* ao finalizar apagar ou colocar cor branca. */
 }
 
@@ -65,68 +60,85 @@ a {
 }
 
 input {
-    margin-top: -10px;
     width: 600px;
     height: 45px;
+    outline: none;
     border-radius: 30px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 button {
     margin: 10px;
-    margin-top: -10px;
+    margin-bottom: 30px;
     width: 150px;
     height: 40px;
+    border: none;
     border-radius: 3px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(248, 249, 250);
+}
+
+.obs {
+    font-size: 13px;
 }
 
 /* Terceira Parte */
 
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
 .footer_first {
     padding: 1px;
-    border-bottom: 1px solid #BBB;
-    background-color: rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(218, 220, 224);
+    background-color: rgb(242, 242, 242);
 }
 
 .footer_one {
     display: flex;
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(230, 230, 230); 
+    margin: 14px;
+    margin-left: 30px;
+    font-size: 15px;
+    color: rgb(112, 117, 159);
+    background-color: rgb(242, 242, 242); 
 }
-
-/* Quarta Parte */
 
 .footer_second {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     padding: 1px;
-    height: 80px;
-    background-color: rgb(230, 230, 230);
+    height: 45px;
+    background-color: rgb(242, 242, 242);
 }
 
 .footer_two {
     display: flex;
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(230, 230, 230); 
+    margin: 10px;
+    margin-left: 25px;
+    font-size: 14px;
+    color: rgb(112, 117, 159);
+    background-color: rgb(242, 242, 242); 
 }
 
 .options_footer1 {
     margin: 10px;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .footer_three {
     display: flex;
-    margin: 20px;
-    font-size: 20px;
-    background-color: rgb(230, 230, 230);
+    margin: 10px;
+    margin-right: 25px;
+    font-size: 14px;
+    color: rgb(112, 117, 159);
+    background-color: rgb(242, 242, 242);
 }
 
 .options_footer2 {
     margin: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
+
