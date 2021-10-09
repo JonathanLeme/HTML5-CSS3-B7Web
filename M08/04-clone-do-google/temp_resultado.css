@@ -4,11 +4,100 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.banner {
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    background-color: rgb(201, 201, 201); /* ao finalizar apagar ou colocar cor branca. */
+}
+
+.container_google {
+    display: flex;
+}
+
 .image_google {
     width: 100px;
+    margin: 20px;
+}
+
+.input.container {
+    position: relative;
+}
+
+.icon_teclado {
+    position: absolute;
+    width: 10px;
+    margin-top: 34px;
+    margin-left: 600px;
+}
+
+.icon_voz {
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 640px;
+}
+
+.icon_pesquisar {
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 680px;
 }
 
 .icon_image {
     width: 20px;
     height: 20px;
+}
+
+input {
+    outline: none;
+    padding-left: 20px;
+    padding-right: 150px;
+    width: 530px;
+    height: 45px;
+    margin: 20px;
+    border-radius: 30px;
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 1px 1px 10px rgb(221, 221, 221);
+}
+
+input:hover {
+    box-shadow: 1px 1px 10px rgb(200, 200, 200);
+}
+
+.menu_descripition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.icon_banner1 {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.icon_banner2 {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+.icon_banner3 {
+    width: 30px;
+    height: 32px;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.hover_icon_banner1,
+.hover_icon_banner2 {
+    width: 50px;
+    height: 50px;
+}
+
+.hover_icon_banner1:hover,
+.hover_icon_banner2:hover {
+    border-radius: 25px;
+    background-color: rgb(240, 240, 240);
 }
