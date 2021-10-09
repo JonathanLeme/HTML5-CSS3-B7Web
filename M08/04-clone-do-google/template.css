@@ -23,7 +23,21 @@
 
 .options_banner {
     margin: 10px;
-    margin-left: 15px;
+    margin-left: 10px;
+}
+
+.hover_icon_banner1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.hover_icon_banner1:hover {
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
 }
 
 a {
@@ -73,6 +87,7 @@ a {
 
 .icon_teclado {
     position: absolute;
+    width: 10px;
     margin-top: 15px;
     margin-left: 520px;
 }
@@ -111,6 +126,12 @@ button {
     border: none;
     border-radius: 3px;
     background-color: rgb(248, 249, 250);
+}
+
+button:hover {
+    border: 1px solid rgb(221, 221, 221);
+    box-shadow: 1px 1px 5px rgb(221, 221, 221);
+
 }
 
 .obs {
