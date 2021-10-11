@@ -4,6 +4,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .banner {
     display: flex;
     justify-content: space-between;
@@ -155,6 +161,10 @@ input:hover {
 } 
 
 /* Fim do banner */
+
+.result_list {
+    flex: 1;
+}
 
 .approximate_result {
     margin-left: 185px;
