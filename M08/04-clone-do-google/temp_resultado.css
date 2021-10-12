@@ -50,7 +50,7 @@ body {
     margin-left: 640px;
 }
 
-.icon_pesquisar {
+.icon_pesquisar1 {
     position: absolute;
     margin-top: 34px;
     margin-left: 680px;
@@ -61,7 +61,7 @@ body {
     height: 20px;
 }
 
-input {
+.input_pesquisar {
     outline: none;
     padding-left: 20px;
     padding-right: 150px;
@@ -74,13 +74,18 @@ input {
     box-shadow: 1px 1px 10px rgb(221, 221, 221);
 }
 
-input:hover {
+.input_pesquisar:hover {
     box-shadow: 1px 1px 10px rgb(200, 200, 200);
 }
 
 .input_description {
     display: flex;
     margin-left: 20px;
+    color: gray;
+}
+
+.description1 {
+    color: blue;
 }
 
 .description1,
@@ -164,6 +169,7 @@ input:hover {
 
 .result_list {
     flex: 1;
+    margin-bottom: 30px;
 }
 
 .approximate_result {
@@ -206,6 +212,105 @@ input:hover {
 
 /* Fim de "result_list" */
 
+.title_relacionado {
+    font-size: 20px;
+    margin-left: 185px;
+}
+
+.colunm {
+    display: flex;
+    margin: 10px;
+    margin-left: 175px;
+    margin-bottom: 50px;
+}
+
+.pesquisas_relacionadas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    width: 290px;
+    height: 50px;
+    margin: 10px;
+    font-size: 17px;
+    border-radius: 30px;
+    border: transparent;
+    background-color: rgb(241, 243, 244);
+}
+
+.icon_pesquisar2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
+
+.other_relacionada {
+    color: rgb(0, 0, 100);
+    text-decoration: none;
+}
+
+.other_relacionada:hover {
+    text-decoration: underline;
+}
+
+.goooogle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 350px;
+    margin-bottom: 50px;
+    
+}
+
+.image_goooogle {
+    width: 310px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+}
+
+.options_number1 {
+    display: flex;
+    color: blue;
+    font-size: 14px;
+    margin-left: 30px;
+    
+}
+
+.options_number1 a {
+    text-decoration: none;
+}
+
+.options_number1 a:hover {
+    text-decoration: underline;
+}
+
+.options_options {
+    margin: 6px;
+}
+
+.options_number2 a {
+    text-decoration: none;
+}
+
+.options_number2 a:hover {
+    text-decoration: underline;
+}
+
+.mais {
+    color: rgb(0, 0, 150);
+    font-size: 14px;
+    margin: 5px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+
+
 
 
 
@@ -237,6 +342,14 @@ footer {
 
 .localization {
     margin-left: 20px;
+}
+
+li {
+    color: blue;
+}
+
+strong {
+    color: rgb(77, 77, 77);
 }
 
 .footer_second {
