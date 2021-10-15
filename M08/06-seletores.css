@@ -76,18 +76,24 @@ p::first-line {
 /* Seletor de Primeira e Último Elemento */
 
 .elementor {
+    margin-bottom: 30px;
+}
+
+.elementor1,
+.elementor2,
+.elementor3,
+.elementor4 {
     margin: 0px;
-    background-color: blue;
     width: 100px;
     height: 100px;
 }
 
-.elementor:first-child {
+.elementor1:first-child {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.elementor:last-child {
+.elementor4:last-child {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
