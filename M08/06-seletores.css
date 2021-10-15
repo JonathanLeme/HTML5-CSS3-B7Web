@@ -1,4 +1,95 @@
-body {
-    margin: 0px;
-    padding: 0px;
+input, a {
+    display: block;
+    margin: 10px;
 }
+
+/* Seletores */
+
+/* Aplicando CSS pelo atributos */
+
+[required] {
+    background-color: red;
+} /* pelo "required" */
+
+input[type=password] {
+    background-color: blue;
+} /* pelo "type" */
+
+input[type="email"] {
+    background-color: green;
+} /* pelo "name" */
+
+/* perceba que pelo "name" usa aspar "". */
+/* perceba também que não pode haver espaço entre input e [] */
+
+/* Aplicando CSS por parte de um texto do link do "a" */
+
+a[href^="https"] {
+    background-color: blueviolet;
+}
+
+/* "^" para começar */
+/* perceba que para funcionar precisa color ^ antes do sinal de =. */
+
+a[href*="foro"] {
+    background-color: yellow;
+}
+
+/* "*" no meio */
+
+a[href*="cpi"] {
+    background-color: yellowgreen;
+}
+
+a[href$="html"] {
+    background-color: gray;
+}
+
+/* "$" no fim */
+
+/* Seletor de Elemento Vazio */
+
+div {
+    margin: 10px;
+    height: 30px;
+}
+
+div:empty {
+    background-color: red;
+}
+
+/* A div 3 só apreceu por que inserimos altura. */
+/* E usamos "div:empty" para colocar cor. */
+/* Mesmo a div con height você não quiser que ela apareça use "display:none" */
+
+/* Seletor de Primeira Letra e Primeira Linha */
+
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background-color: yellowgreen;
+}
+
+/* Seletor de Primeira e Último Elemento */
+
+.elementor {
+    margin: 0px;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.elementor:first-child {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.elementor:last-child {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
