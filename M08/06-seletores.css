@@ -75,25 +75,21 @@ p::first-line {
 
 /* Seletor de Primeira e Último Elemento */
 
-.elementor {
-    margin-bottom: 30px;
-}
-
-.elementor1,
-.elementor2,
-.elementor3,
-.elementor4 {
+.child1,
+.child2,
+.child3,
+.child4 {
     margin: 0px;
     width: 100px;
     height: 100px;
 }
 
-.elementor1:first-child {
+.child1:first-child {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.elementor4:last-child {
+.child4:last-child {
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
 }
