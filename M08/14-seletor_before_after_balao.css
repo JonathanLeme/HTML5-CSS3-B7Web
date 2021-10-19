@@ -1,7 +1,39 @@
-.balao {
-    background-color: blue;
-    display: inline-block
+.balao1 {
     color: #FFF;
     padding: 20px;
+    background-color: blue;
+    display: inline-block;
+    border-radius: 20px;
+    margin-bottom: 30px;
 
+}
+
+.balao1::after {
+    content: '';
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+
+    border: 20px solid;
+    border-color: blue transparent transparent transparent;
+}
+
+.balao2 {
+    color: #FFF;
+    padding: 20px;
+    background-color: green;
+    display: inline-block;
+    border-radius: 20px;
+
+}
+
+.balao2::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    margin-left: 45px;
+    top: 205px;
+
+    border: 20px solid;
+    border-color: transparent transparent transparent green;
 }
