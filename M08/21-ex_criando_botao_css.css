@@ -1,6 +1,5 @@
 body {
     margin: 30px;
-    /* text-align: center; */    
 }
 
 a {
@@ -18,7 +17,7 @@ a {
     text-decoration: none;
     background-color: darkcyan;
     border-radius: 25px;
-    box-shadow: gray;
+    box-shadow: 1px 1px 5px gray;
 }
 
 .botao:hover {
