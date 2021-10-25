@@ -1,0 +1,19 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 1fr;
+    gap: 10px;
+}
+
+/*  Anotações
+
+    fr é uma fração. Ela não tem uma largura específica, ela se adapta de acordo com o espaço disponível.
+
+*/
+
+.item {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}

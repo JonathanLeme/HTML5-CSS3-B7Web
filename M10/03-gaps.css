@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/*  Anotações
+
+    column-gap - modifica o espaçamento entre as colunas
+    row-gap - modica o espaçamento entre as linha
+    gap - modifica o espaçamento entre ambos (coluna e linha)
+
+*/
+
+.item {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
