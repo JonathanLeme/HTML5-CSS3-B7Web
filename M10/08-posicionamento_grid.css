@@ -1,0 +1,24 @@
+.container {
+    height: 800px;
+    background-color: #CCC;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-auto-rows: 100px;
+    gap: 10px;
+    justify-content: end;
+    align-content: end;
+}
+
+/*  Anotações
+
+    
+
+*/
+
+.item {
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    color: #FFF;
+    font-size: 20px;
+}
