@@ -1,0 +1,17 @@
+h2 {
+    color: green;
+}
+
+#titulo {           /* "id" é chamado com "#" */
+    color: blue;
+}
+
+.texto {            /* "class" é chamdo com "." */
+    color: crimson;
+}
+
+h2, 
+#tilulo,
+.texto {            /* Forma de incluir todos de uma vez */
+    font-family: 'Courier New', Courier, monospace;
+}
