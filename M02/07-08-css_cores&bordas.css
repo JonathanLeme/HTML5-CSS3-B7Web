@@ -1,48 +1,57 @@
 .red {
-    background-color: rgb(255, 0, 0);
+    background-color: red;
 }
-
 .green {
     background-color:rgb(0, 255, 0);
 }
 
 .blue {
+    color: #FFF;
     background-color:#0000ff;
 }
 
 .borda01 {
+    font-weight: bold;
     border: 5px solid #FF0000;
 }
 
 .borda02 {
+    font-weight: bold;
     border: 5px dotted #00FF00;
 }
 
 .borda03 {
+    font-weight: bold;
     border: 5px dashed #0000FF;
 }
 
 .borda04 {
+    font-weight: bold;
     border: 5px double #FF0000;
 }
 
 .borda05 {
+    font-weight: bold;
     border-top: 5px solid #00FF00;
 }
 
 .borda06 {
+    font-weight: bold;
     border-bottom: 5px solid #00FF00;
 }
 
 .borda07 {
+    font-weight: bold;
     border-left: 5px solid #00FF00;
 }
 
 .borda08 {
+    font-weight: bold;
     border-right: 5px solid #00FF00;
 }
 
 .borda09 {
+    font-weight: bold;      
     color: #FFFFFF;
     background-color: #0000FF;
     border-radius: 5px;  
