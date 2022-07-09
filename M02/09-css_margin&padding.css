@@ -1,0 +1,9 @@
+body {
+    margin: 0px;
+}
+
+.exemplo {
+    border: 3px solid #00FF00;
+    padding: 10px; /* Paddding = Espaçamento Interno */
+    margin: 10px;  /* Margin = Espaçamento Externo */
+}
