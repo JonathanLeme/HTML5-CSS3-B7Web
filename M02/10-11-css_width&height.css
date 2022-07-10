@@ -1,10 +1,10 @@
 * {
-    box-sizing: border-box; /* usado para mander a difinição de width height em seu respectivos pixel. */
-}
+    box-sizing: border-box; 
+} /* usado para mander a difinição de width height em seu respectivos pixel. */
 
 body {
-    margin: 0px; /* Usado para zera o margin padrão da tela. */
-}
+    margin: 0px; 
+} /* Usado para zerar o margin padrão da tela. */
 
 div {
     background-color: #0f0;
