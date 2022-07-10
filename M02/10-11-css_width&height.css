@@ -1,15 +1,15 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; /* usado para mander a difinição de width height em seu respectivos pixel. */
 }
 
 body {
-    margin: 0px;
+    margin: 0px; /* Usado para zera o margin padrão da tela. */
 }
 
 div {
     background-color: #0f0;
-    width: 400px; /* pode ser auto, %, px, cm ... */
-    height: 400px;
+    width: 400px; /* width = largura. pode ser auto, %, px, cm ... */
+    height: 500px; /* height = altura */
     border: 5px solid #000;
     padding: 10px;
     margin: 20px;
