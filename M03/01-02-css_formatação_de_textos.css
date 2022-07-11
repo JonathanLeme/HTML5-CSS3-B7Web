@@ -7,14 +7,15 @@ body {
     font-size: 20px;
 }
 
+/* 'Indie Flower' é uma fonte externa. Buscada de um link: Google Fonts */
 h1 {
-    font-family: 'Indie Flower'; /* 'Indie Flower' é uma fonte externa. Buscada de um link: Google Fonts */
+    font-family: 'Indie Flower'; 
 }
 
 p {
     color: #0000FF; /* para cores do texto */
     font-size: 20px; /* para aumentar ou diminuir fonte */
-    font-weight: normal; /* para tecto normal, negrito (bold) ... */
+    font-weight: normal; /* para texto normal, negrito (bold) ... */
     font-family: none; /* para fonte dos texto */
     font-family: 'Chilanka'; /* 'Chilanka' é uma fonte externa. Buscada de um link: Google Fonts */
     text-align: justify; /* para alinhar o texto */
@@ -25,9 +26,10 @@ p {
     text-shadow: 2px 2px 3px #FF0000; /* para sombremanto nas palavras do texto */
 }
 
+/* text-decoration: para tirar ou decorar o texto linkado  */
 a {
     text-decoration: none; 
-} /* text-decoration: para tirar ou decorar o texto linkado  */
+} 
 
 a:hover {
     text-decoration: underline;
