@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários no HTML</title>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="07-html-formulários.css">
+    </head>
+    
+    <body>
+        
+        <h1>Formatando Formulários no HTML</h1>
+
+        <h2>Input's</h2>
+
+        <form action="paginas/07-html-login.html" method="POST">
+            
+            <input type="text" name="usuario"><br>
+            <input type="color" name="usuario"><br>
+            <input type="date" name="usuario"><br>
+            <input type="month" name="usuario"><br>
+            <input type="number" name="usuario"><br>
+            <input type="range" name="usuario"><br>
+            <input type="search" name="usuario"><br>
+            <input type="tel" name="usuario"><br>  
+            <input type="time" name="usuario"><br>  
+            <input type="url" name="usuario"><br> 
+            <input type="week" name="usuario"><br>
+            <input type="email"><br>
+            <input type="password"><br>
+            <input type="checkbox"><br>
+            <input type="radio" name="sexo">
+            <input type="radio" name="sexo"><br>    
+            <input type="submit" value="Fazer cadastro">
+
+        </form>
+
+        <h2>Select</h2>
+
+        <form action="paginas/07-html-login.html" method="GET">
+        
+            <select name="order" size="2" multiple>
+                <option value="bestseller" selected>Mais Vendidos</option>
+                <option value="last">Recentes</option>
+            </select>
+
+            <input type="submit" value="Fazer cadastro">
+        
+        </form>
+
+        <h2>Textarea</h2>
+
+        <form action="paginas/07-html-login.html" method="GET">
+        
+            <textarea name="descricao"></textarea>
+
+            <input type="submit" value="Fazer cadastro">
+        
+        </form>
+
+        <h2>Button</h2>
+
+        <form action="paginas/07-html-login.html" method="GET">
+        
+            <input type="text" name="nome">
+
+            <button>Fazer Cadastro</button>
+    
+        </form>
+
+        <h2>Label</h2>
+
+        <form action="paginas/07-html-login.html" method="GET">
+        
+            <label for="nome">Nome Completo:</label><br> <!-- 1° forma -->
+            <input type="text" name="nome" id="nome">
+            <button>Enviar</button>
+            <br><br>
+
+            <label> <!-- 2° foprma -->
+                Nome Completo: <br>
+                <input type="text" name="nome">        
+            </label>
+            
+            <button>Enviar</button>
+            <br><br>
+
+            <input type="checkbox" id="x">
+            <label for="x">Declaro que li e aceito os termos de uso</label>
+            <button>Aceitar</button>
+    
+        </form>
+    </body>
+</html>
