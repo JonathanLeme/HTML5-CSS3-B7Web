@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Formulários no HTML</title>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="07-13-html_formulários.css">
+    </head>
+    
+    <body>
+        
+        <h1>Formulários no HTML</h1>
+
+        <h2>Input's</h2>
+
+        <form action="/pages/login.html" method="POST">
+            
+            <!-- type="text" criar uma caixa digitável. -->
+            <input type="text" name="usuario"><br><br>
+
+            <!-- type="password" usado para criar uma caixa digitável no formato senha (****). -->
+            <input type="password"><br><br>
+
+            <!-- type="email" usado para criar uma caixa digitável de email. -->
+            <input type="email"><br><br>
+
+            <!-- type="checkbox" usado para criar um mini caixa ticavel.  -->
+            <input type="checkbox"><br><br>
+
+            <!-- type="radio" usado para criar dua minis-caixas estilo masculino ou feminino. Deve ser usado 2x com o mesmo nome. -->
+            <input type="radio" name="sexo">
+            <input type="radio" name="sexo"><br><br>
+
+            <!-- type="submit" usado para criar um botão enviar. -->
+            <input type="submit" value="Fazer Cadastro"><br><br>
+
+            <!-- type="color" cria um botão clicável que abre um paleta de cores. -->
+            <input type="color" name="usuario"><br><br>
+            
+            <!-- type="date" cria uma caixa de da data no formato DD/MM/AA. -->
+            <input type="date" name="usuario"><br><br>
+
+            <!-- type="month" cria uma caixa de da data no formato MM/AA. -->
+            <input type="month" name="usuario"><br><br>
+
+            <!-- type="number" cria uma caixa digitável apenas números. -->
+            <input type="number" name="usuario"><br><br>
+
+            <!-- type="range" cria uma uma régua de aumentar e diminuir. -->
+            <input type="range" name="usuario"><br><br>
+
+            <!-- type="search" criar uma caixa digitável de pesquisa. -->
+            <input type="search" name="usuario"><br><br>
+
+            <!-- type="tel" criar uma caixa digitável para telefone. -->
+            <input type="tel" name="usuario"><br><br> 
+
+            <!-- type="time" -->
+            <input type="time" name="usuario"><br><br>
+
+            <!-- type="url" -->
+            <input type="url" name="usuario"><br><br>
+
+            <!-- type="week" -->
+            <input type="week" name="usuario"><br><br>
+
+        </form>
+
+        <h2>Select</h2>
+
+        <form action="/pages/login.html" method="GET">
+        
+            <select name="order" size="2" multiple>
+                <option value="bestseller" selected>Mais Vendidos</option>
+                <option value="last">Recentes</option>
+            </select>
+
+            <input type="submit" value="Fazer cadastro">
+        
+        </form>
+
+        <h2>Textarea</h2>
+
+        <form action="/pages/login.html" method="GET">
+        
+            <textarea name="descricao"></textarea>
+
+            <input type="submit" value="Fazer cadastro">
+        
+        </form>
+
+        <h2>Button</h2>
+
+        <form action="/pages/login.html" method="GET">
+        
+            <input type="text" name="nome">
+
+            <button>Fazer Cadastro</button>
+    
+        </form>
+
+        <h2>Label</h2>
+
+        <form action="/pages/login.html" method="GET">
+        
+            <!-- 1° forma -->
+            <label for="nome">Nome Completo:</label><br> 
+            <input type="text" name="nome" id="nome">
+            <button>Enviar</button>
+            <br><br>
+
+            <!-- 2° foprma -->
+            <label> 
+                Nome Completo: <br>
+                <input type="text" name="nome">        
+            </label>
+            
+            <button>Enviar</button>
+            <br><br>
+
+            <input type="checkbox" id="x">
+            <label for="x">Declaro que li e aceito os termos de uso</label>
+            <button>Aceitar</button>
+    
+        </form>
+    </body>
+</html>
