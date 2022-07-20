@@ -14,7 +14,7 @@
 
         <h2>Input's</h2>
 
-        <form action="/pages/login.html" method="POST">
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="POST">
             
             <!-- type="text" criar uma caixa digitável. -->
             <input type="text" name="usuario"><br><br>
@@ -67,10 +67,16 @@
 
         </form>
 
-        <h2>Select</h2> <!-- Assistido aula. Faltou marcação e resolve action: não está funcionando. ;() -->
+        <h2>Select</h2> 
 
-        <form action="/pages/login.html" method="GET">
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="GET">
         
+            <!-- 
+                <select name="" id="">  -> aqui pode ser usado "size" para mostrar a quantidade, de uma vez, que quer de uma vez. "Multiple para multiplas escolhas."
+                    <option value=""></option>  -> aqui em options pode ser usado "selected" conforme no modelo abaixo e mencionado na aula.
+                </select> 
+            -->            
+            
             <select name="order" size="2" multiple>
                 <option value="bestseller" selected>Mais Vendidos</option>
                 <option value="last">Recentes</option>
@@ -82,8 +88,14 @@
 
         <h2>Textarea</h2>
 
-        <form action="/pages/login.html" method="GET">
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="GET">
         
+            <!-- 
+                <textarea name="" id="" cols="30" rows="10"></textarea> -> textarea é parecido com "input type="text", porém o campo digitável é flexível. Ainda existe "cols=""" para coluna e "rows="" para linha para definir um tamanho do campo, mas não é recomendado. O ideal para definir um    tamanho seria via CSS.
+            -->
+
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            
             <textarea name="descricao"></textarea>
 
             <input type="submit" value="Fazer cadastro">
@@ -92,8 +104,12 @@
 
         <h2>Button</h2>
 
-        <form action="/pages/login.html" method="GET">
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="GET">
         
+            <!-- 
+                <button></button> é igual "<input type="submit" value="Fazer Cadastro">". A diferença é button pode ser usada dentro e fora de "<form></form>"
+            -->
+            
             <input type="text" name="nome">
 
             <button>Fazer Cadastro</button>
@@ -102,7 +118,7 @@
 
         <h2>Label</h2>
 
-        <form action="/pages/login.html" method="GET">
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="GET">
         
             <!-- 1° forma -->
             <label for="nome">Nome Completo:</label><br> 
