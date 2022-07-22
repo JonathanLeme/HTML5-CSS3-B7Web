@@ -16,6 +16,8 @@ label {
     margin-bottom: 20px;
 }
 
+/* "outline" é usado para tirar a borda padrão que gera automaticamente pelo "input". */
+
 input[type="text"], textarea, select {
     padding: 10px;
     width: 500px;
@@ -25,15 +27,21 @@ input[type="text"], textarea, select {
     margin-top: 5px;
 }
 
+/* "resize" usado para remover a opção do usuário aumentar ou diminuir a caixa gerada. */
+
 textarea {
     height: 200px;
     resize: none;
 }
 
+/* "text-decoration: ?" usado para decorar um link. Por exemplo "<a href=""</a>" */
+
 .termoslink {
     color: #000;
     text-decoration: none;
 }
+
+/* "hover" usado pra criar um efeito quando passar o mouse por cima. */
 
 .termoslink:hover {
     text-decoration: underline;
