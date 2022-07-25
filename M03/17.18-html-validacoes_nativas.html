@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Validações Nativas</title>
+        <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="17.18-html-validacoes_nativas.css">
+
+    </head>
+
+    <body>
+
+        <h1>Validações Nativas</h1>
+
+        <form action="paginas/07-html-login.html" method="POST" enctype="multipart/form-data">
+
+            <input type="hidden" name="country" value="BR">
+            
+            <fieldset>
+
+                <legend>Dados Pessoais</legend>
+
+                <label>
+                    Primero Nome <br>
+                    <input type="text" name="name" minlength="2" maxlength="20" required>
+                </label> <br>
+                <label>
+                    Sobrenome <br>
+                    <input type="text" name="lastname" required>
+                </label> <br>
+                <label>
+                    Idade <br>
+                    <input type="number" name="age" min="18" max="120" required>
+                </label> <br>
+                <label>
+                    Data de Nasciment: <br>
+                    <input type="date" name="birthdate" min="2021-09-14" required>
+                </label> <br>
+                <label>
+                    E-mail <br>
+                    <input type="text" name="email" pattern="(^[A-zA-Z0-9_.+-]+@[A-zA-Z0-9_.+-]+\.[A-zA-Z0-9_.+-]+$)" title="Ensira um E-mail Válido" required>
+                </label> <br>
+                <label>
+                    Foto <br>
+                    <input type="file" name="photo" accept="image/*" required>
+                </label> <br>
+
+            </fieldset> 
+
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da Empresa: <br>
+                    <input type="text" name="companyname">
+                </label> <br>
+                <label>
+                    Cargo na Empresa: <br>
+                    <input type="text" name="companyjobtitle">
+                </label> <br>
+            </fieldset>
+
+            <input type="submit" name="Cadastrar">
+
+        </form>
+        
+    </body>
+</html>
