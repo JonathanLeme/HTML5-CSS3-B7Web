@@ -14,7 +14,9 @@
 
         <h1>Validações Nativas</h1>
 
-        <form action="paginas/07-html-login.html" method="POST" enctype="multipart/form-data">
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="POST" enctype="multipart/form-data">
+
+            <!-- tag "type="hidden" é usado para enviar informações sem que o campo seja visível para o usuário. -->
 
             <input type="hidden" name="country" value="BR">
             
@@ -22,26 +24,42 @@
 
                 <legend>Dados Pessoais</legend>
 
+                <!-- tag "required" é usado para tornar o campo do "input" obrigatório. -->
+                <!-- tag "minlength" é usado, + para textos, para definir o mínimo de caracteres no "input". -->
+                <!-- tag "maxlength" é usado, + para textos, para definir o máximo de caracteres no "input".-->
+                
                 <label>
                     Primero Nome <br>
                     <input type="text" name="name" minlength="2" maxlength="20" required>
                 </label> <br>
+
                 <label>
                     Sobrenome <br>
                     <input type="text" name="lastname" required>
                 </label> <br>
+
+                <!-- tag "min" é usado, + para idades e datas, para definir o mínimo de um determinado número. -->
+                <!-- tag "max" é usado, + para idades e datas, para definir o máximo de um determinado número.-->
+                <!-- tag "step" usado para definir um quantida a ser contada. Por exemplo: 2 em 2 ou 3 em 3 e assim por diante.-->
+
                 <label>
                     Idade <br>
-                    <input type="number" name="age" min="18" max="120" required>
+                    <input type="number" name="age" min="18" max="120" required step="2">
                 </label> <br>
+
                 <label>
                     Data de Nasciment: <br>
                     <input type="date" name="birthdate" min="2021-09-14" required>
                 </label> <br>
+
+                <!-- tag "pattern" é usado para cria um padrão ou expressão regular. Exemplo usado: (^[A-zA-Z0-9_.+-]+@[A-zA-Z0-9_.+-]+\.[A-zA-Z0-9_.+-]+$). -->
+                <!-- tag "title" é usada para aparecer uma iformação na mensagem do "required". -->
+
                 <label>
                     E-mail <br>
                     <input type="text" name="email" pattern="(^[A-zA-Z0-9_.+-]+@[A-zA-Z0-9_.+-]+\.[A-zA-Z0-9_.+-]+$)" title="Ensira um E-mail Válido" required>
                 </label> <br>
+
                 <label>
                     Foto <br>
                     <input type="file" name="photo" accept="image/*" required>
