@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <title>Validações Nativas</title>
         <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="17.18-html-validacoes_nativas.css">
+        <link rel="stylesheet" href="17-20-html-validacoes_nativas.css">
 
     </head>
 
@@ -14,8 +14,12 @@
 
         <h1>Validações Nativas</h1>
 
+        <!-- #20 input type file -->
+        <!-- Sempre que usar "input type="file"", automaticamente deve-se incluir o "enctype="multipart/form-data" no "form"" -->
+
         <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="POST" enctype="multipart/form-data">
 
+            <!-- #19 input type hidden -->
             <!-- tag "type="hidden" é usado para enviar informações sem que o campo seja visível para o usuário. -->
 
             <input type="hidden" name="country" value="BR">
@@ -24,6 +28,7 @@
 
                 <legend>Dados Pessoais</legend>
 
+                <!-- #17 e #18 Validação Nativa 1 -->
                 <!-- tag "required" é usado para tornar o campo do "input" obrigatório. -->
                 <!-- tag "minlength" é usado, + para textos, para definir o mínimo de caracteres no "input". -->
                 <!-- tag "maxlength" é usado, + para textos, para definir o máximo de caracteres no "input".-->
@@ -38,6 +43,7 @@
                     <input type="text" name="lastname" required>
                 </label> <br>
 
+                <!-- #17 e #18 Validação Nativa 2 -->
                 <!-- tag "min" é usado, + para idades e datas, para definir o mínimo de um determinado número. -->
                 <!-- tag "max" é usado, + para idades e datas, para definir o máximo de um determinado número.-->
                 <!-- tag "step" usado para definir um quantida a ser contada. Por exemplo: 2 em 2 ou 3 em 3 e assim por diante.-->
@@ -48,10 +54,11 @@
                 </label> <br>
 
                 <label>
-                    Data de Nasciment: <br>
+                    Data de Nascimento: <br>
                     <input type="date" name="birthdate" min="2021-09-14" required>
                 </label> <br>
 
+                <!-- #17 e #18 Validação Nativa 2 -->
                 <!-- tag "pattern" é usado para cria um padrão ou expressão regular. Exemplo usado: (^[A-zA-Z0-9_.+-]+@[A-zA-Z0-9_.+-]+\.[A-zA-Z0-9_.+-]+$). -->
                 <!-- tag "title" é usada para aparecer uma iformação na mensagem do "required". -->
 
@@ -59,6 +66,10 @@
                     E-mail <br>
                     <input type="text" name="email" pattern="(^[A-zA-Z0-9_.+-]+@[A-zA-Z0-9_.+-]+\.[A-zA-Z0-9_.+-]+$)" title="Ensira um E-mail Válido" required>
                 </label> <br>
+
+                <!-- #20 input type file -->
+                <!-- tag "type="file" é usado para enviar arquivos. -->
+                <!-- "accept" usado para definir o tipo de arquivo que queira aceitar. -->
 
                 <label>
                     Foto <br>
