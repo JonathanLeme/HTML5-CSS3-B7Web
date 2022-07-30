@@ -11,6 +11,8 @@ h1 {
     font-family: 'Chilanka';
 }
 
+/* No código abaixo, sobre herança, mostra que caso eu não especifique algo para tag "strong" será herdada tudo as funções colocada em "container"   */
+
 .container {
     width: calc(100% - 20px);
     height: 200px;
