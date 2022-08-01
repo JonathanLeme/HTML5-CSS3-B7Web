@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Chilanka';
+}
+
+/* Cascata - Hierarquia
+
+1° CSS Externo;
+2° CSS Interno;
+3° CSS Inline
+
+*/
+
+.container {
+    color: #F00;
+}
+
+
+
