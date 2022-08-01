@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+h1 {
+    font-family: 'Chilanka';
+}
+
+/* Especificidade:
+
+- "class" são mais específicas do que "tags";
+- funciona de baixo para cima;
+
+*/
+
+.container {
+    color: #F00;
+}
+
+div {
+    color: #0F0;
+}
+
+
+
