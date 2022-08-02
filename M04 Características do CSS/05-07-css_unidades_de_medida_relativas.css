@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+}
+
+/* 
+"em" se baseia no "font-size" anterior da sua hierarquia. Neste caso o "body".
+1em equivale o "font-size" determinado.  Neste exemplo, noa "h1" o font-size equivale a 60px.
+*/
+
+h1 {
+    font-size: 3em;
+    font-family: 'Chilanka';
+}
+
+/*  */
+
+.box1 {
+    font-size: 2em;
+}
+
+/*  */
+
+.box-interno1 {
+    width: 10em;
+    height: 10em;
+    background-color: #999;
+}
