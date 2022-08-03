@@ -2,14 +2,20 @@
     box-sizing: border-box;
 }
 
+/* Quando não especificamos o "font-size" no html, por padrão, na maioria dos navegadores, ele equivale a 16px. */
+
+html {
+    font-size: 20px;
+}
+
 body {
     margin: 30px;
     font-size: 20px;
 }
 
 /* 
-"em" se baseia no "font-size" anterior da sua hierarquia. Neste caso o "body".
-1em equivale o "font-size" determinado.  Neste exemplo, noa "h1" o font-size equivale a 60px.
+- "em" se baseia no "font-size" anterior da sua hierarquia. Neste caso, o "h1" o pai dele é o "body".
+- 1em equivale o "font-size" determinado.  Neste exemplo, no "h1" o font-size equivale a 60px. Porquê 20x3=60.
 */
 
 h1 {
@@ -17,16 +23,44 @@ h1 {
     font-family: 'Chilanka';
 }
 
-/*  */
+/* 
+- Em "box1" o pai ainda continua sendo o "body". 
+- 20x2=40.
+ */
 
 .box1 {
     font-size: 2em;
 }
 
-/*  */
+/* 
+- Em "box-interno1" o pai já não é o "body" e sim o "box1".
+- Neste caso como o "box1" herdou 40px, "box-interno1" passe a vale 400px.
+- No "em" o formato é em cascata.
+*/
 
 .box-interno1 {
     width: 10em;
     height: 10em;
+    background-color: #999;
+}
+
+/* ### END ### */
+
+/* 
+- Em "rem" será herdado/responderá sempre o "font-size" do "html" = root.   
+*/
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Chilanka';
+}
+
+.box2 {
+    font-size: 2rem;
+}
+
+.box-interno2 {
+    width: 10rem;
+    height: 10rem;
     background-color: #999;
 }
