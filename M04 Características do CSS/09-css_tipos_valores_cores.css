@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    color: #00ffff;
+}
+
+/* "currentColor" serve para herdar a cor do pai. QUe no exemplo é o "body" */
+
+h1 {
+    font-family: "Chilanka";
+    border: 2px solid currentColor;
+}
+
+.box1 {
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    color: black;
+    background-color: red;
+}
+
+.box2 {
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    color: #000000;
+    background-color: #00FF00;
+}
+
+.box3 {
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,255);
+}
+
+.box4 {
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    color: hsl(100,100,100);
+    background-color: hsl(0,0,0);
+}
