@@ -64,3 +64,18 @@ h2 {
     height: 10rem;
     background-color: #999;
 }
+
+/* ### END ### */
+
+/* 
+- "%" quando usamos porcentagem em um "div" para "width" e "height" devemos atentar que ela sempre pegará, como base, o tamanho da tela diponível.
+- Se houver um "div" dentro de outra "div" o espaço que a 2° "div" pegará como base será o espaço diponível da 1° "div".
+- "ex"
+- "ch" usado para proporcionar "width" pelo tamanho da letra. Porém, não funciona com todas as fontes.
+- viewport = espaço visivel pelo usuário.
+- viewport "vh"
+- viewport "vw"
+- viewport "vmin"
+- viewport "vmax"
+- "
+*/
