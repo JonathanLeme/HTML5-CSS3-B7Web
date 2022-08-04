@@ -5,26 +5,26 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
 
 img {
     width: 400px;
     height: 400px;
-    object-fit: contain;
+    object-fit: scale-down;
 }
-
-
 
 /* 
 
-object-fit: fill; - 
-object-fit: contain; - 
-object-fit: cover; - 
-object-fit: none; -
-object-fit: scale-down; -  
+- Quando usamos "width" e "height" em conjunto para um imagem, ela ficará distorcida.
+- Corrigimos isso com "object-fit".
+- "object-fit" deixar a imagem redimensionada dependendo de qualquer tamanho que set nela.
+
+
+- object-fit: fill - É o padrão. Quando não colocamos essa propriedade ela já é "fill";
+- object-fit: contain - Redimensiona a imagem dentro do "width" e "height" aplicado;
+- object-fit: cover - Redimensiona a imagem, porém corta a imagem de acordo ao "width" e "height" aplicado;
+- object-fit: none - Mantém o tamanho original da imagem e corta a imagem de acordo ao "width" e "height" aplicado;
+- object-fit: scale-down - A diferença para "contain" é que "scale-down" dimimui a qualidade da imagem.
 
 */
