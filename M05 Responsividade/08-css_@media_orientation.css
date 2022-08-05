@@ -4,11 +4,8 @@
 
 body {
     margin: 30px;
-    display: flex;
-}
-
-h1, p {
     font-family: 'Chilanka';
+    display: flex;    
 }
 
 div {
@@ -17,11 +14,19 @@ div {
     border: 3px solid #000;
 }
 
+/* 
+- "@media (orientation: landscape)" significa que a tela está na horizontal.
+*/
+
 @media (orientation: landscape) {
     body {
         flex-direction: row;
     }
 }
+
+/* 
+- "@media (orientation: portrait)" significa que a tela está na vertical.
+*/
 
 @media (orientation: portrait) {
     body {
@@ -30,8 +35,5 @@ div {
 }
 
 /* 
-
-@media (orientation: landscape) - 
-@media (orientation: portrait) - 
-
+- "orientation" se base no espaço disponível para definir "landscape" and "portrait".
 */
