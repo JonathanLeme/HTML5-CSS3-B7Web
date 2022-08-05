@@ -1,6 +1,10 @@
+/* 
+- "root" propriedade para se criar as variáveis que serão usadas no CSS.
+*/
+
 :root {
     --bg-color: #000;
-    --bg-second: #CCC;
+    --bg-second: #333;
     --font-family: 'Chilanka';
     --font-color: #FFF;
 }
@@ -8,6 +12,10 @@
 * {
     box-sizing: border-box;
 }
+
+/* 
+- Perceba abaixo os exemplos de como devemos puxar a váriaveis (var) de "root"
+*/
 
 body {
     margin: 30px;
@@ -22,10 +30,3 @@ h1, div {
 .container {
     background-color: var(--bg-second);
 }
-
-/* 
-
-:root - 
-var() - 
-
-*/
