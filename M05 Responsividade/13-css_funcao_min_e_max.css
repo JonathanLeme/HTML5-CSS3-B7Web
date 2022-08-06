@@ -5,19 +5,17 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
+
+/* 
+- "max(?%, ?px)"
+- "min(?%, ?px)" 
+
+- Eu entendi como funciona assistindo a aula, mas não consigo pensar em jeito de transcrever isso. ;(
+*/
 
 img {
     width: min(50%, 300px);
 }
 
-/* 
-
-max - 
-min - 
-
-*/
