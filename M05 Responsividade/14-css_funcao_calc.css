@@ -5,20 +5,16 @@
 body {
     margin: 0px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
+
+/* 
+- "width: calc()" c alcula os espaços exatos nos elementos para aplicar na página e deixar padrão e responsiva.
+*/
 
 .container {
     width: calc(100% - 20px);
     height: 200px;
-    background-color: #ccc;
+    background-color: #CCC;
 }
 
-/* 
-
-width: calc()
-
-*/
