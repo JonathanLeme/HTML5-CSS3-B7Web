@@ -5,10 +5,13 @@
 body {
     margin: 30px;
     font-size: 20px;
+    font-family: 'Chilanka';
 }
 
-h1, p {
-    font-family: 'Chilanka';
+header {
+    height: 100px;
+    background-color: #333;
+    color: #FFF;
 }
 
 nav {
