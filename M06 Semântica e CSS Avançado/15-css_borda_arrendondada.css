@@ -5,9 +5,6 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
 
@@ -33,11 +30,11 @@ input {
 
 /* 
 
-* Para Borada Arredondada usamos "border-radius".
+- Para Borada Arredondada usamos "border-radius".
 
-* Nesse exemplo poderia se colocador apenas "border-radius: 10px;". Assim todos os cantos ja se aplicariam.
+- Nesse exemplo poderia se colocador apenas "border-radius: 10px;". Assim todos os cantos ja se aplicariam.
 Coloquei os exmplos acima para lembra de como fazer para escolher uma canto caso queira.
 
-* Posso também usar "border-radius: ??px;" para todos os cantos e depois aumentar ou diminuir, um canto específico,com outro valor entre top e bottom.
+- Posso também usar "border-radius: ??px;" para todos os cantos e depois aumentar ou diminuir, um canto específico,com outro valor entre top e bottom.
 
 */

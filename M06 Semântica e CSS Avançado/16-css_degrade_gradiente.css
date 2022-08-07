@@ -5,9 +5,6 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
 
@@ -21,9 +18,9 @@ h1, p {
 
 /* 
 
-* Para mudar direção de degradê usama "1deg a -100deg". Como exemplo acima.
+- Para mudar direção de degradê usama "1deg a -100deg". Como exemplo acima.
 
-* Em um projeto deve colocar proteção para navegadores mais antigos. Segue abaixo:
+- Em um projeto deve colocar proteção para navegadores mais antigos. Segue abaixo:
 
 - background: -moz-linear-gradient(white, blue); < proteção para suporte Mozila;
 - background: -o-linear-gradient(white, blue); < proteção para suporte Ópera;

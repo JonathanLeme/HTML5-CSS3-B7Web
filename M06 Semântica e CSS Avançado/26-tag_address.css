@@ -2,8 +2,7 @@
     box-sizing: border-box;
 }
 
-body {
-    
+body {    
     margin: 0px;
     font-family: 'Chilanka';
 }
@@ -29,13 +28,12 @@ main {
 }
 
 footer {
+    color: #FFF;
     background-color: #555;
     min-height: 100px;
 }
 
-
-/* 
-
-* 
-
-*/
+address {
+    color: #FFF;
+    font-style: normal;
+}

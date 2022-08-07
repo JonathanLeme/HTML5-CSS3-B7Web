@@ -5,9 +5,6 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
 
@@ -30,8 +27,8 @@ h1, p {
 
 /* 
 
-* Caso eu queira que à a nimação continue, eu preciso colocar "infinite" após os segundos: [animation: animacoes 5s; infinite]
+- Caso eu queira que à a nimação continue, eu preciso colocar "infinite" após os segundos: [animation: animacoes 5s; infinite]
 
-* Preciso descobrir como acha o pixel de onde meu quadrado está parado para tenaar iniciá-lo do mesmo local.
+- Preciso descobrir como acha o pixel de onde meu quadrado está parado para tenaar iniciá-lo do mesmo local.
 
 */

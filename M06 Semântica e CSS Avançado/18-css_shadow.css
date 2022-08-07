@@ -5,9 +5,6 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
 
@@ -38,8 +35,8 @@ h1, p {
 
 /* 
 
-* No example1 perceba que incluir "5px". Isso fará que a sombra ganhe um esfumaçamento.
+- No example1 perceba que incluir "5px". Isso fará que a sombra ganhe um esfumaçamento.
 
-* No example2 incluir "text-shadow". Perceba que no texto que a sombra se aplica. ;)
+- No example2 incluir "text-shadow". Perceba que no texto que a sombra se aplica. ;)
 
 */

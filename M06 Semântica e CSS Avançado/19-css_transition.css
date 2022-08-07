@@ -5,9 +5,6 @@
 body {
     margin: 30px;
     font-size: 20px;
-}
-
-h1, p {
     font-family: 'Chilanka';
 }
 
@@ -33,6 +30,6 @@ a:hover {
 
 /* 
 
-* "transition" pode ser utilizado tanto para caixas-box como para texto. 
+- "transition" pode ser utilizado tanto para caixas-box como para texto. 
 
 */
