@@ -8,6 +8,16 @@ body {
     font-family: 'Chilanka';
 }
 
+form {
+    width: 230px;
+    height: 175px;
+    background-color: #DDD;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 input {
     margin: 5px;
+    padding: 5px;
+    font-size: 13px;
 }
