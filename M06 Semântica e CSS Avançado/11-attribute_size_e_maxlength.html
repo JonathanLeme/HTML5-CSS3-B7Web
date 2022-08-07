@@ -1,38 +1,43 @@
 <!DOCTYPE html>
+
 <html>
-<head>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Attribute Size & MaxLength</title>
-    <link href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="11-attribute_size_e_maxlength.css">
+    <head>
 
-</head>
-<body>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chilanka&family=Indie+Flower&display=swap">
+        <link rel="stylesheet" href="11-attribute_size_e_maxlength.css">
 
-    <h1>Attribute Size & MaxLength</h1>
+        <title>Attribute Size & MaxLength</title>
 
-    <p>Prof° explica sobre os atributo "size & maxLength".</p>
+    </head>
 
-    <form action="../pages/07-html-login.html" method="POST">
-        
-        <input type="Usuário" name="name" placeholder="size" autofocus size="10"> <br>
+    <body>
 
-        <input type="Senha" name="password" placeholder="maxLenght" maxlength="10"> <br>
+        <h1>Attribute Size & MaxLength</h1>
 
-        <input type="Submit" name="Enviar">
-    </form>
+        <p>Prof° explica sobre os atributo "size & maxlength".</p>
 
-</body>
+        <!-- 
+        - "size" faz que o campo "input" fique do tamanho da quantidade de caracteres que determinar. Não é mais utilizado, pois diminui o input e depende da fontes.
+
+        - "maxlength" limita a quantidade de caracteres que determinar. É o mais aconselhável utilizar.
+
+        - Veja os exemplos no código e no navegador.
+         -->
+
+        <form action="../../HTML5-CSS3-B7Web/pages/login.html" method="POST">
+            
+            <input type="Usuário" name="name" placeholder="size" autofocus size="10"> <br>
+
+            <input type="Senha" name="password" placeholder="maxlenght" maxlength="10"> <br>
+
+            <input type="Submit" name="Enviar">
+
+        </form>
+
+    </body>
+
 </html>
 
-<!-- 
-
-* O atributo "size" faz que o campo "input" fique do tamanho da quantidade de caracteres que determinar. 
-
-* O atributo "maxlength" limita a quantidade de caracteres que determinar
-
-* Veja os exemplos no código e na página.
-
- -->
