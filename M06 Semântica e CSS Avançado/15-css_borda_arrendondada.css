@@ -14,6 +14,14 @@ form {
     background-color: #DDD;
     padding: 20px;
     margin-top: 20px;
+
+    /*
+    - Para Borda Arredondada usamos "border-radius".
+    - Nesse exemplo poderia se colocador apenas "border-radius: 10px;". Assim todos os cantos ja se aplicariam.
+    - Coloquei os exemplos abaixo para lembra de como fazer para escolher uma canto caso queira.
+    - Posso também usar "border-radius: ??px;" para todos os cantos e depois aumentar ou diminuir, um canto específico,com outro valor entre top e bottom.
+    */
+
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -28,13 +36,3 @@ input {
     border: 1px;  
 }
 
-/* 
-
-- Para Borada Arredondada usamos "border-radius".
-
-- Nesse exemplo poderia se colocador apenas "border-radius: 10px;". Assim todos os cantos ja se aplicariam.
-Coloquei os exmplos acima para lembra de como fazer para escolher uma canto caso queira.
-
-- Posso também usar "border-radius: ??px;" para todos os cantos e depois aumentar ou diminuir, um canto específico,com outro valor entre top e bottom.
-
-*/
