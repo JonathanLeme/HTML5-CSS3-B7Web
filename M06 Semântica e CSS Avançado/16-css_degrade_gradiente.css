@@ -11,19 +11,16 @@ body {
 .degrade {
     width: 600px;
     height: 300px;
+
+    /* 
+    - Para mudar direção de degradê usama "1deg a -100deg". Como exemplo abaixo.
+    - Em um projeto deve colocar proteção para navegadores mais antigos. Segue abaixo:
+    - background: -moz-linear-gradient(white, blue); < proteção para suporte Mozila;
+    - background: -o-linear-gradient(white, blue); < proteção para suporte Ópera;
+    - background: -webkit-linear-gradient(white, blue); < proteção para suporte Safari.
+    */
+
     background: #0000FF;
-    background: linear-gradient(-90deg, white, blue);
-    
+    background: linear-gradient(-90deg, white, blue);    
 }
 
-/* 
-
-- Para mudar direção de degradê usama "1deg a -100deg". Como exemplo acima.
-
-- Em um projeto deve colocar proteção para navegadores mais antigos. Segue abaixo:
-
-- background: -moz-linear-gradient(white, blue); < proteção para suporte Mozila;
-- background: -o-linear-gradient(white, blue); < proteção para suporte Ópera;
-- background: -webkit-linear-gradient(white, blue); < proteção para suporte Safari
-
-*/
