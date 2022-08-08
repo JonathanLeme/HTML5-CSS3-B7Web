@@ -12,6 +12,13 @@ body {
     width: 150px;
     height: 150px;
     background-color: red;
+
+    /* 
+    - Caso eu queira que à a nimação continue, eu preciso colocar "infinite" após os segundos: [animation: animacoes 5s; infinite]
+
+    - Preciso descobrir como acha o pixel de onde meu quadrado está parado para tenaar iniciá-lo do mesmo local.
+    */
+
     position: relative;
     animation: animacoes 5s infinite;
     animation-direction: alternate;
@@ -25,10 +32,3 @@ body {
     100% {background-color:tomato; top: 0px; left: 0px;}
 }
 
-/* 
-
-- Caso eu queira que à a nimação continue, eu preciso colocar "infinite" após os segundos: [animation: animacoes 5s; infinite]
-
-- Preciso descobrir como acha o pixel de onde meu quadrado está parado para tenaar iniciá-lo do mesmo local.
-
-*/
