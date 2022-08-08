@@ -8,35 +8,40 @@ body {
     font-family: 'Chilanka';
 }
 
+/* 
+- Usamos "box-shadow: 1°px 2°px 3°px; 4°cor" para colocar sobras;
+- 1°px usamos para distância horozintal da sombra. Valores positivos, a sombra aparecerá para direita. Negativo a sombra aparecerá para esquerda;
+- 2°px usamos para distância vertical da sombra. Valores positivos, a sombra aparecerá para baixo. Negativo a sombra aparecerá para cima;
+- 3°px usamos para colocar o esfumaçamento. 
+*/
+
 #example1 {
     width: 100%;
     height: 100px;
     border: 1px solid;
     padding: 5px;
-    box-shadow: 5px 10px 10px;   
-}
+    box-shadow: 5px 10px 10px #000;   
+}   
 
 #example2 {
     width: 100%;
     height: 100px;
     border: 1px solid;
     padding: 10px;
-    box-shadow: 5px 10px #888888;   
+    box-shadow: 5px 10px 10px #0000FF;   
 }
+
+/* 
+- Quando queremos incluir sombras no texto usamos "text-shadow: 1°px 2°px 3°px; 4°cor".
+- Funciona do mesmo jeito que "box-shadow".
+*/
 
 #example3 {
     width: 100%;
     height: 100px;
     border: 1px solid ;
     padding: 10px;
-    text-shadow: 2px 2px #ccc; 
-    box-shadow: 5px 10px #FF0000;   
+    text-shadow: 5px 3px 4px #000000; 
+    box-shadow: 5px 10px 5px #FF0000;   
 }
 
-/* 
-
-- No example1 perceba que incluir "5px". Isso fará que a sombra ganhe um esfumaçamento.
-
-- No example2 incluir "text-shadow". Perceba que no texto que a sombra se aplica. ;)
-
-*/
