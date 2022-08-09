@@ -13,12 +13,11 @@ div {
     height: 250px;
     padding: 5px;
     border: 1px solid #000;
+
+    /*
+    - "word-wrap: break-word;" é usado para quebrar a palavra para poder mantê-la, automaticamente, dentro de uma "div".
+    */
+
     word-wrap: break-word;
 
 }   
-
-/* 
-
-* "word-wrap: break-word;" é usado para quebrar a palavra para poder mantê-la, automaticamente, dentro da caixa-box
-
-*/
