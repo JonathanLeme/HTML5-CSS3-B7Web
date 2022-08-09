@@ -12,8 +12,17 @@ div {
     width: 150px;
     height: 150px;
     background-color: #00FF00;
+
+    /* 
+    - "transition: 1° 2° 3°;" faz com que todas as mudanças de estilo da página sejam de forma clean. 
+    - 1° "all" ...
+    - 2° tempo da transição;
+    - 3° é colocasdo o estilo.
+    */
+
     transition: all 1s linear;
 }
+
 div:hover {
     width: 300px;
     background-color: yellow;
@@ -21,15 +30,10 @@ div:hover {
 
 a {
     color: #000;
+    text-decoration: none;
     transition: all 1s linear;
 }
 
 a:hover {
     color: #FF0000;
 }
-
-/* 
-
-- "transition" pode ser utilizado tanto para caixas-box como para texto. 
-
-*/
