@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Chilanka';
+}
+
+/* 
+- "display: flex;" por padrão, caso não especifique nada, aparecerá uma do lado da outra, horizontalmente;
+- "flex-direction: row;" a posição do "display: flex;" se manterá horizontal;
+- "flex-direction: row-reverse;;" a posição do "display: flex;" se manterá horizontal, porém inverso (4, 3, 2, 1);
+- "flex-direction: column;" a posição do "display: flex;" mudará para coluna, vertical;
+- "flex-direction: column-reverse;" a posição do "display: flex;" mudará para coluna, vertical, porém inverso (4, 3, 2, 1);
+*/
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: #DDDDDD;
+    margin: 10px;
+}
+
+/* 
+- "flex: ?;" é usado para determinar o tamanho que o bloco aumentará ou diminuirá, nesse exemplo de 4 "divs", dentro do grupo (container);
+*/
+
+.div1 {
+    flex: 3;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font: 18px;
+}
+
+.div2 {
+    flex: 1;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font: 18px;
+}
+
+.div3 {
+    flex: 1;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font: 18px;
+}
+
+.div4 {
+    flex: 1;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font: 18px;
+}
