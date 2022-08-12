@@ -7,3 +7,33 @@ body {
     font-size: 20px;
     font-family: 'Chilanka';
 }
+
+div, span {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    margin: 5px;
+}
+
+/* 
+- "display"
+- "display: none;" serve para remover a div/bloco;
+*/
+
+.div2 {
+    display: none;
+}
+
+/* 
+- "display: bloco;" é o padrão quando não é especificado na em "div". Mas posso usá-lo para transformar, por exemplo, um "span" em um bloco;
+*/
+
+.span4 {
+    display: block;
+}
+
+/* 
+- "display: inline" retira o formato de bloco e coloca-os em forma de linha horizontal;
+- "display: inline-block" coloca no formato de linha horizontal mais mantém em blocos.
+*/
+
