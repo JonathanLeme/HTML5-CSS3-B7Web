@@ -9,8 +9,9 @@ body {
 }
 
 /* 
-- "display: flex;" por padrão, caso não especifique nada, aparecerá uma do lado da outra, horizontalmente;
-- "flex-direction: row;" a posição do "display: flex;" se manterá horizontal;
+- "display: flex;" por padrão, caso não especifique nada, aparecerá uma do lado da outra, horizontalmente. Em forma de linha;
+
+- "flex-direction: row;" é a padrão. A posição do "display: flex;" se manterá horizontal;
 - "flex-direction: row-reverse;;" a posição do "display: flex;" se manterá horizontal, porém inverso (4, 3, 2, 1);
 - "flex-direction: column;" a posição do "display: flex;" mudará para coluna, vertical;
 - "flex-direction: column-reverse;" a posição do "display: flex;" mudará para coluna, vertical, porém inverso (4, 3, 2, 1);
