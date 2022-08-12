@@ -7,3 +7,47 @@ body {
     font-size: 20px;
     font-family: 'Chilanka';
 }
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    margin: 5px;
+}
+
+/* 
+- "position" define como um elemento pode ser posicionado (renderizado) no documento (página). Essa propriedade (position) pode ser acompanhada de outras, tais como, top (en-US), right (en-US), bottom (en-US), and left (en-US), que determinam como ficará a localização final do objeto, permitindo seu deslocamento, como será apresentado adiante.
+- "position: static;" quando não se especifica nada, por padrão, já é "position: static;"
+- "position: absolute;" faz a div/bloco flutuar e ficar na mesma posição;
+*/
+
+.div2 {
+    position: absolute;
+    left: 800px;
+    top: 120px;
+}
+
+/* 
+- "position: fixed;" ele fixa de acordo com o navegador e não com a página;
+- Use a barra de rolagem, no navegador, para vê a diferença.
+*/
+
+.div3 {
+    position: fixed;
+    left: 1000px;
+    top: 120px;
+}
+
+/* 
+- Usando um exemplo de como mover um bloco usando "position: fixed;"
+*/
+
+.div5 {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* 
+- "position: relative;" 
+*/
