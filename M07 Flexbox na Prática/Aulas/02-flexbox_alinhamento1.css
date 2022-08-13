@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Chilanka';
+}
+
+/* 
+- "justify-content: center;" (alinhamento horizontal) usado para centralizar o conteúde dentro do "container" no centro;
+- "justify-content: flex-start;" inicia no inicio do flex, canto superior esquerdo;
+- "justify-content: flex-end;" termina no fim do flex, conto superior direito;
+- "justify-content: space-evenly;" ?
+- "justify-content: space-around;" alinha os itens, dentro do container, de forma que os espaçamentos entre eles sejam iguais;
+- "justify-content: space-between;" coloca o 1° e o último nas laterais. O restante e dividido pelo espaço que tiver disponível;
+- "align-items: center;" (alinhamento vertical) usado para centralizar o conteúde dentro do "container" no centro;
+- Todos os "justify-content: ??;" se aplicar em "align-items: ??;" verticalmente. ;)
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    height: 500px;
+    background-color: #DDDDDD;
+}
+
+.container div {
+    width: 100px;
+    height: 100px;
+    background-color: #FF0000;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* 
+- "flex-wrap: wrap;" usado para habilitar a quebra-de-linha, já que em "flexbox" ele diminuir para caber no espaço;
+- "flex-wrap: nowwrap;" é o padraõ quendo não se especifica nada;
+- "flex-flow: row wrap;" é uma junção de "flex-direction: ?" e "flex-wrap: wrap;". Colocá-os em linha e habilita a quebra-de-linha;
+- "flex-flow: column wrap;" é uma junção de "flex-direction: ?" e "flex-wrap: wrap;". Colocá-os em coluna e habilita a quebra-de-linha;
+*/

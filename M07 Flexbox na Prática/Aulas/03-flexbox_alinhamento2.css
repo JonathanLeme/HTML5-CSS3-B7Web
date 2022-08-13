@@ -8,12 +8,16 @@ body {
     font-family: 'Chilanka';
 }
 
+/* 
+- - "align-content: ??;" é usado para quando o "flex-wrap: wrap;" está ativado. 
+*/
+
 .container {
     display: flex;
-    height: 500px;
     flex-direction: row;
     justify-content: center; 
     align-items: flex-start;
+    height: 500px;
     background-color: #DDDDDD;
 }
 
@@ -26,6 +30,11 @@ body {
     font-size: 18px;
 }
 
+/* 
+- "align-self: ??; (alinhe-se a si mesmo) serve para sobrescrever o "align-items: ??;" do container;
+- "order: (-1 , 0 , +1);" serve para especificar a ordem e onde quer colocar sua div/bloco. "0" é o padrão. Negativos serão o primeiro e os positivos os últimos
+*/
+
 .div10 {
     align-self: flex-end;
     order: -1;
@@ -35,13 +44,3 @@ body {
     align-self: flex-end;
     order: -2;
 }
-
-/* 
-
-* align-self: ?;
-
-* order: ?;
-
-* align-content: ?;
-
-*/
