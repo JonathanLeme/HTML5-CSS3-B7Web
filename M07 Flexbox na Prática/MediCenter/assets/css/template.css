@@ -53,8 +53,9 @@ nav a:hover {
     background-color: #39AAE1;
     color: #FFF;
     border-radius: 5px;
-
 }
+
+/* *** 1    ° Banner [Meio] *** */
 
 #banner {
     display: flex;
@@ -94,7 +95,6 @@ nav a:hover {
     margin-top: 30px;
 }
 
-
 .banner_options {
     height: 210px;
     display: flex;
@@ -120,15 +120,6 @@ nav a:hover {
     background-color: #2b4c99;
 }
 
-.banner_options a {
-    display: inline-block;
-    border: 1px solid #FFF;
-    padding: 5px;
-    color: #FFF;
-    font-size: 18px;
-    text-decoration: none;
-}
-
 .banner_title {
     font-size: 21px;
 }
@@ -137,6 +128,15 @@ nav a:hover {
     font-size: 14px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #FFF;
+    padding: 5px;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 .banner_desc2 {
@@ -151,14 +151,13 @@ nav a:hover {
     margin: 8px;
     padding: 5px;
     padding-left: 0px;
-            
 }
 
 .hourly {
     text-align: right;
 }
 
-/* *** Próximo Banner [Meio]*** */
+/* *** 2° Banner [1°] *** */
 
 #geral {
     display: flex;
@@ -250,7 +249,7 @@ article .news_resume {
     margin-bottom: 30px;
 }
 
-/* banner meio 2 */
+/* ** 2° Banner [2°] *** */
 
 .widget_body1 {
     display: flex;
@@ -286,7 +285,7 @@ article .news_resume {
     font-weight: bold;
 }
 
-/* banner meio 3 */
+/* ** 2° Banner [3°] *** */
 
 .desc_contacts, 
 .query_options {
@@ -315,7 +314,6 @@ article .news_resume {
     height: 18px;
     margin: 10px;
 }
-
 
 /* *** Próximo Banner [Footer]*** */
 
