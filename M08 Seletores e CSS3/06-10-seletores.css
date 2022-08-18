@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-family: 'Chilanka';
+}
+
+input, a {
+    display: block;
+    margin: 10px;
+}
+
+/* Seletores */
+
+/* Aplicando CSS pelos atributos */
+
+/* pelo "required" */ 
+
+[required] {
+    background-color: red;
+} 
+
+/* pelo "type" */
+
+input[type=password] {
+    background-color: blue;
+} 
+
+/* 
+- pelo "name"
+- perceba que pelo "name" usa-se aspas ("").
+- perceba também que não pode haver espaço entre input e [] 
+*/
+
+input[name="email"] {
+    background-color: yellowgreen;
+} 
+
+/* Aplicando CSS por parte de um texto do link do "a" */
+
+/* 
+- Por link "a[href^="https"]"
+- Perceba que usa-se "^" antes do sinal de (=) para buscar por link. 
+*/
+
+a[href^="https"] {
+    background-color: blueviolet;
+}
+
+/* 
+- Por palavra qualquer "a[href*="word"]"
+- Perceba que usa-se "*" antes do sinal de (=) para buscar por palavra qualquer. 
+*/
+
+a[href*="foro"] {
+    background-color: yellow;
+}
+
+a[href*="cpi"] {
+    background-color: yellowgreen;
+}
+
+/* 
+- Por html "a[href$="html"]"
+- Perceba que usa-se "$" antes do sinal de (=) para buscar por link. 
+*/
+
+a[href$="html"] {
+    background-color: gray;
+}
+
+/* Seletor de Elemento Vazio */
+
+/* 
+- A "div" 3 só apareceu por que inserimos altura.
+- E usamos "div:empty" para colocar cor. 
+- Mesmo a "div" com height você não quiser que ela apareça use "display:none" 
+*/
+
+div {
+    margin: 10px;
+    height: 30px;
+}
+
+div:empty {
+    background-color: red;
+}
+
+/* Seletor de Primeira Letra e Primeira Linha */
+
+p::first-letter {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p::first-line {
+    background-color: yellowgreen;
+}
+
+/* Seletor de Primeira e Último Elemento */
+
+.elementor {
+    display: flex;  
+}
+
+.child1,
+.child2,
+.child3,
+.child4 {
+    margin: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+.child1:first-child {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.child4:last-child {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
