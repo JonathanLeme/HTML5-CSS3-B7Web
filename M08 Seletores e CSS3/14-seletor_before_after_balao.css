@@ -1,3 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: "Chilanka";
+}
+
 .balao1 {
     color: #FFF;
     padding: 20px;
@@ -31,8 +41,8 @@
     content: '';
     display: inline-block;
     position: absolute;
-    margin-left: 45px;
-    top: 205px;
+    margin-left: 50px;
+    top: 230px;
 
     border: 20px solid;
     border-color: transparent transparent transparent green;
