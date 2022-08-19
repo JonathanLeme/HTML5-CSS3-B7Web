@@ -1,4 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: "Chilanka";
     background-image: url('../pictures/thewitcher.jpg');
     background-size: cover;
     background-position: initial;
