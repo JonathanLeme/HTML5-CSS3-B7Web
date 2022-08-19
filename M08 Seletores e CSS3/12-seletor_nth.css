@@ -1,11 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Chilanka';
+}
+
+/* nth-child() é contado de cima para baixo */
+
 div:nth-child(2) {
     background-color: red;
 }
 
-/* nth-child() é contado de cima para baixo */
+/* nth-last-child() é contado de baixo para cima */
 
 div:nth-last-child(2) {
     background-color: green;
 }
 
-/* nth-last-child() é contado de baixo para cima */
