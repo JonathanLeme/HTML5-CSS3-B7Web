@@ -1,4 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: 'Chilanka';
     text-align: center;
 }
 
@@ -6,6 +13,12 @@ div {
     background-color: green;
     padding: 20px;
 }
+
+/* 
+- Sempre que utilizar o "div::before {}" ou "div::after {}" ele acompanhará "content: "?";"
+- "content: "?";" pode ser estilizado conforme exemplo abaixo;
+- Caso queira colocar um quadrado, sem conteúdo, deve-se adicionar um display;
+*/
 
 div::before {
     content: "";
@@ -21,6 +34,6 @@ div::after {
     display: inline-block;
     width: 10px;
     height: 10px;
-    background-color: red;
+    background-color: greenyellow;
     border: 1px solid black;
 }
