@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;   
+    font-size: 20px;
+    font-family: "Chilanka";
+}
+
+/* 
+- "transform: ?: é usado para aumnetar/diminuir ou  manusear formas geométricas;
+- "transform: scale(H(x), V(y));" é usado para aumentar/diminuir, uma div/bloco por exemplo, horizontal ou vertical. 
+*/
+
+.scale {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    transform: scale(2, 1);
+}
+
+/* 
+- "transform: rotate(?deg); usado para rotacinar/girar, um div/bloco por exemplo, horário e anti-horário;
+- Valores positivos rotacionar para o lado horário, negativos para o lado anti-horário.
+*/
+
+.rotate {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    transform: rotate(180deg);
+}
+
+/* 
+- "transform: skew(H(x)deg, V(y)deg); é usado para distorcer, um div/bloco por exemplo;
+- Valores positivos distorce horizontal, negativos vertical.
+*/
+
+.skew {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    transform: skew(20deg, 5deg);
+}
