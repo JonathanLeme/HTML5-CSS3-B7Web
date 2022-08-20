@@ -1,4 +1,17 @@
-/* * body { border-sizing: borderbox; */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    font-size: 20px;
+    font-family: "Chilanka";
+}
+
+/* 
+- "box-sizing: content-box;" é o padrão quando não é especificado nada;
+- "box-sizing: border-box;" é usado para fazer com que "margin e padding seja descontado do tamanho do box.
+*/
 
 div {
     background-color: red;
@@ -9,4 +22,3 @@ div {
     box-sizing: border-box;
 }
 
-/* box-sizing: content-box; para anular */
