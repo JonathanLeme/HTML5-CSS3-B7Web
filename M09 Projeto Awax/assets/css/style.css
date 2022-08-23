@@ -2,7 +2,12 @@
     margin: 0px;
     height: 0px;
     box-sizing: border-box;
-}   
+} 
+
+body {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
 
 header {
     height: 100px;
@@ -15,19 +20,19 @@ header {
     align-items: center;
     margin: auto;    
     max-width: 1140px;
-
-
     height: 100px;
-    background-color: #0000FF;      
+
+    /* background-color: #FFFF00; */   
 }
 
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90px;
+    
+    /* width: 90px;
     height: 90px;
-    background-color: #00FF00;
+    background-color: #00FF00; */
 }
 
 .logoimg {    
@@ -40,67 +45,42 @@ header {
     flex: 1;
     display: flex;
     justify-content: flex-end;
+    height: 100px;
 
-
-    height: 90px;
-    background-color: #FFFF00;
-}
-
-.menu ul {
-    display: flex;
-    align-items: center;
-
-    height: 90px;
-    background-color: #00FF00;
-    
+    /* background-color: #0000FF; */
 }
 
 .menu ul,
 .menu li {
-    list-style: none;
-}
-
-.menu li a {
-    display: flex;
-    align-items: center;
-    color: #000;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-bottom: 5px solid #FFFF00;
-}
-
-.menu li a:hover {
-    border-bottom: 5px solid #B28756;
-}
-
-/* 
-.menu ul,
-.menu li {
+    height: 100px; /* Sem inseri essa alturar não funcionou */
     list-style: none;
 }
 
 .menu ul {
     display: flex;
+    align-items: center;   
+
+    /* height: 90px;
+    background-color: #FF0000; */
 }
 
 .menu li a {
-    color: #000;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-weight: bold;
-    padding-left: 5px;
-    padding-right: 5px;
-    height: 50px;
     display: flex;
     align-items: center;
+    color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;    
+    height: 100px;   
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: 5px solid #000000;
 }
 
-.menu li a:hover {
+.menu li a:hover,
+.menu .active a {
     border-bottom: 5px solid #B28756;
-} */
+}
 
 
 
