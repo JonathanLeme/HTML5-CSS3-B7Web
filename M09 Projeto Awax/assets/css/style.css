@@ -149,10 +149,6 @@ header {
     border-radius: 20px;
 }
 
-.button:hover {
-    color: #EEE;
-}
-
 .sliders-pointers {
     width: 100vw;
     height: 20px;
@@ -564,3 +560,120 @@ header {
 }
 
 /* END HAPPY CLIENTS */
+
+/* START COMPANY BANNER */
+
+.company-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 150px;
+    border-top: 1px solid #DDD;
+    border-bottom: 1px solid #DDD;
+}
+
+.company {
+    margin-right: 100px;
+}
+
+/* END COMPANY BANNER */
+
+/* START PRICE BANNER */
+
+.price {
+    border-bottom: 1px solid #DDD;
+}
+
+.section-price-banners {
+    max-width: 1140px;
+    display: flex;
+}
+
+.section-price-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    padding: 40px 70px;
+    border: 1px solid #EEE;
+    background-color: #FFF;
+}
+
+.section-price-banner h3 {
+    text-transform: uppercase;
+}
+
+.section-price-banner h1 {
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.section-price-banner h5 {
+    text-transform: uppercase;
+    font-size: 10px;
+    color: #CCC;
+    margin-bottom: 15px;
+}
+
+.section-price-banner p {
+    font-size: 12px;
+}
+
+.button-price {
+    display: block;
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    background-color: #333;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.button-price:hover {
+    background-color: #B28756;
+}
+
+/* END PRICE BANNER */
+
+/* START PREMIUM */
+
+.section-premium-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-premium {
+    display: flex;
+}
+
+.section-premium-area .premium-pointers {
+    margin-top: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-premium-area .pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #B28756;
+    border-radius: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer; /* Usado para colocar a mãozinha quando passa o mouse. */
+}
+
+.section-premium-area .pointer.active {
+    background-color: #B28756;
+}
+
+/* END PREMIUM */
