@@ -647,20 +647,62 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: auto;
 }
 
 .section-premium {
     display: flex;
+    max-width: 1140px;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCC;
+}
+
+.section-premium .premium-img {
+    margin-right: 50px;
+}
+
+.section-premium .premium-options {
+    padding: 60px;
+    padding-right: 200px;
+}
+
+.premiun-option img {
+    display: inline-block;
+    margin-right: 20px;
+    height: 30px;
+    width: 35px;    
+}
+
+.premiun-option {
+    display: flex;
+    font-weight: 600;
+}
+
+.premium-titles h1 {
+    text-transform: uppercase;
+}
+
+.premium-titles p {
+    margin-top: 3px;
+    margin-bottom: 20px;
+    color: #CCC;
+}
+
+.premium-titles ul {
+    text-transform: uppercase;
+    list-style: none;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    color: #CCC;
 }
 
 .section-premium-area .premium-pointers {
     margin-top: 30px;
     height: 20px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-}
+} 
 
 .section-premium-area .pointer {
     width: 15px;
