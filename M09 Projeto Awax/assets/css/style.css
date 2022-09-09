@@ -732,6 +732,8 @@ header {
 
 /* END PREMIUM */
 
+/* START FACTOS */
+
 .section-factos {
     display: flex;
 }
@@ -766,3 +768,87 @@ header {
     margin-top: 5px;
     color: #999;
 }
+
+/* END FACTOS */
+
+/* START ICONS */
+
+.section-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    height: 80px;    
+    border-bottom: 1px solid #AAA;    
+}
+
+.section-icon {
+    display: flex;
+}
+
+.section-icon .share,
+.section-icon .twitter,
+.section-icon .linkedin,
+.section-icon .facebook,
+.section-icon .googleplus,
+.section-icon .pinterest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    margin-left: 45px;
+    margin-right: 5px;
+}
+
+.section-icon .icon-description-tell,
+.section-icon .icon-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #999;
+}
+
+.section-icon .icon-description-tell {
+    font-size: 15px;
+}
+
+.section-icon .icon-description {
+    font-size: 10px;
+}
+
+.section-icon .twitter {
+    
+    background-color: rgb(86, 182, 206);
+}
+
+.section-icon .linkedin {
+    background-color: rgb(86, 182, 206);
+}
+
+.section-icon .facebook {
+    background-color: #0000ffe3;
+}
+
+.section-icon .googleplus {
+    background-color: #d83535;
+}
+
+.section-icon .pinterest {
+    background-color: #FF0000;
+}
+
+/* END ICONS */
+
+/* START CONTACT */
+
+.section-contact-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* END CONTACT */
