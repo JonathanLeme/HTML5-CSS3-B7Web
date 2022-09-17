@@ -550,17 +550,23 @@ header {
 
 /* START COMPANY BANNER */
 
-.company-banner {
+.company-banner-area {
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
+}
+
+.company-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
     height: 150px;
     border-top: 1px solid #DDD;
     border-bottom: 1px solid #DDD;
 }
 
 .company {
-    margin-right: 100px;
+    margin: 50px;
 }
 
 /* END COMPANY BANNER */
@@ -572,15 +578,16 @@ header {
 }
 
 .section-price-banners {
-    max-width: 1140px;
     display: flex;
+    justify-content: center;
+    max-width: 1140px;
 }
 
 .section-price-banner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 20px;
+    margin: 15px;
     padding: 40px 70px;
     border: 1px solid #EEE;
     background-color: #FFF;
@@ -638,32 +645,34 @@ header {
 }
 
 .section-premium {
-    display: flex;
     max-width: 1140px;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 1px solid #CCC;
 }
 
 .section-premium .premium-img {
+    width: 500px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding-left: 70px;
-    margin-right: 50px;
+    justify-content: center;  
+    padding: 20px;   
 }
 
-/* .premium-img img {
-    height: 300px;
-} */
+.premium-img img {
+    height: 340px;
+    width: 340px;
+}
 
 .section-premium .premium-options {
+    width: 640px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-weight: 600;
-    padding: 60px 60px 10px 60px;
-    padding-right: 150px;
+    padding: 20px 100px 20px 0px;
 }
 
 .premiun-option {
@@ -998,6 +1007,7 @@ header {
 /* RESPONSIVIDADE */
 
 @media (min-width:450px) and (max-width:800px) {
+
     .logoimg {
         margin-left: 30px;
     }
@@ -1061,5 +1071,37 @@ header {
         width: auto;
     }
 
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .section-service p {
+        font-size: 16px;
+    }
+
+    .section-service:first-child {
+        border-left: 0ch;
+    }
+
+    .section-team {
+        max-width: 580px;
+    }
+
+    .happy-description p {
+        font-size: 16px;
+    }
+
+    .section-price-banners {
+        flex-wrap: wrap;        
+    }
+
+    .section-premium {
+        flex-direction: column;
+    }
 
 }
