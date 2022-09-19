@@ -732,6 +732,7 @@ header {
 
 .section-factos {
     display: flex;
+    max-width: 1140px;
 }
 
 .section-facto {
@@ -939,7 +940,6 @@ header {
     display: flex;
     max-width: 1140px;
     margin: 10px;
-    /* background-color: red; */
 }
 
 .footer-are-slider--icons-area,
@@ -950,7 +950,6 @@ header {
     margin: 10px;
     padding: 10px;
     flex-wrap: wrap;
-    /* background-color: blue; */
 }
 
 .footer-are-slider--icons-area {
@@ -1102,6 +1101,27 @@ header {
 
     .section-premium {
         flex-direction: column;
+    }
+
+    .section-premium .premium-options {
+        padding: 20px;
+    }
+
+    .section-factos {
+        flex-direction: column;
+    }
+
+    .footer-area-sliders {
+        flex-direction: column;
+    }
+    
+    .footer-are-slider--reserved {
+        order: -1;
+    }
+
+    .footer-are-slider--description {
+        text-align: justify;
+        font-size: 14px;
     }
 
 }
