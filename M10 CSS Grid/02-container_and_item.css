@@ -1,13 +1,13 @@
+/*  
+    *Anotações
+
+    -A novidasde está aqui no .container. ;)
+*/
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 } 
-
-/*  Anotações
-
-    A novidasde está aqui no .container. ;)
-
-*/
 
 .item {
     background-color: blue;
