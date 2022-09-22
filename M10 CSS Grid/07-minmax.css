@@ -1,14 +1,14 @@
+/*  
+    *Anotações
+
+    -grid-auto-rows: determina a altura fixa para todas a linhas.
+*/
+
 .container {
     display: grid;
     grid-template-columns: repeat(5, minmax(300px, 1fr));
     gap: 10px;
 }
-
-/*  Anotações
-
-    grid-auto-rows: determina a altura fixa para todas a linhas.
-
-*/
 
 .item {
     background-color: blue;

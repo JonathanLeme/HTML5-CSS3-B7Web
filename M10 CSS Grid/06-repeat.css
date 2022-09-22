@@ -1,17 +1,17 @@
+/*  
+    *Anotações
+
+    -grid-template-columns: repeat(3, 100px) é a mesma coisa que:
+    -grid-template-columns: 100px 100px 100px;
+
+    -auto-fill: usado para colocar a maior quantidade possivel do tamanho que selecionou.
+*/
+
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 300px);
+    grid-template-columns: repeat(auto-fill, 200px);
     gap: 10px;
 }
-
-/*  Anotações
-
-    grid-template-columns: repeat(3, 100px) é a mesma coisa que:
-    grid-template-columns: 10px 100px 100px;
-
-    auto-fill: usado para colocar a maior quantidade possivel do tamanho que selecionou.
-
-*/
 
 .item {
     background-color: blue;
