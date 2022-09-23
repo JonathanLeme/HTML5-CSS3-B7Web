@@ -1,3 +1,8 @@
+/*  
+    *Anotações
+      
+*/
+
 .container {
     height: 800px;
     background-color: #CCC;
@@ -8,12 +13,6 @@
     justify-content: end;
     align-content: end;
 }
-
-/*  Anotações
-
-    
-
-*/
 
 .item {
     background-color: blue;

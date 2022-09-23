@@ -13,12 +13,20 @@
     font-size: 20px;
 }
 
+/* 
+-Perceba que caso eu não use o "SPAN" teria que colocar o número 4 para QUE ele pegasse as 4 colunas 
+*/
+
 .item1 {
-    grid-column: 1 / span 3; /* Perceba que caso eu não use o "SPAN" teria que colocar o número 4 para QUE ele pegasse as 4 colunas */
+    grid-column: 1 / span 3; 
 }
 
+/* 
+-Aqui é mostrado outra maneira, mais fácil, de se usar. Perceba que não usamos "start e end" 
+*/
+
 .item3 {
-    grid-column: 2 / 4; /* Aqui é mostrado outra maneira, mais fácil, de se usar. Perceba que não usamos "start e end" */
+    grid-column: 2 / 4; 
 
     grid-row: 2 / 5;
 }
@@ -34,10 +42,10 @@
     grid-row-end: 9;
 }
 
-/*  Anotações
+/*  
+    *Anotações
 
-    grid-column: para aumenta/diminuir colunas
+    -grid-column: para aumenta/diminuir colunas
        
-    grid-row: para aumenta/diminuir linhas
-
+    -grid-row: para aumenta/diminuir linhas
 */
