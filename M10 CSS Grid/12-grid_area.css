@@ -13,6 +13,16 @@
     font-size: 20px;
 }
 
+/*  
+    *Anotações 
+
+    -grid-area funciona com quatro valores:
+    -1° grid-row-start;
+    -2° grid-colunm-start;
+    -3° grid-row-end;
+    -4° grid-colunm-end.    
+*/
+
 .item1 {
     grid-area: 1 / 1 / span 3 / span 2; /* sem o "SPAN" ficaria (1 / 1 / 4 / 3) */
 }
@@ -20,13 +30,3 @@
 .item6 {
     grid-area: 4 / 2 / span 2 / span 2; /* sem o "SPAN" ficaria (4 / 2 / 6 / 4) */
 }
-
-/*  Anotações 
-
-    grid-area funciona com quatro valores:
-    1° grid-row-start
-    2° grid-colunm-start
-    3° grid-row-end
-    4° grid-colunm-end
-
-*/
